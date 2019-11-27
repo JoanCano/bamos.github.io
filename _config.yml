@@ -1,7 +1,7 @@
-name: Brandon Amos
-url: http://bamos.github.io
+name: Joan Cano
+url: https://github.com/JoanCano
 destination: ./_site
-twitter: brandondamos
+twitter: Joan_C_A
 lsi: false
 port: 4000
 markdown: kramdown
