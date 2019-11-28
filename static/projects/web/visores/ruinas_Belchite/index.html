@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+            <title>Ruinas</title>
+
+            <!-- Leaflet -->
+            <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+              <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+
+            <style>
+                body { margin:0; padding:0; }
+                body, table, tr, td, th, div, h1, h2, input { font-family: "Calibri", "Trebuchet MS", "Ubuntu", Serif; font-size: 11pt; }
+                #map { position:absolute; top:0; bottom:0; width:100%; } /* full size */
+                .ctl {
+                    padding: 2px 10px 2px 10px;
+                    background: white;
+                    background: rgba(255,255,255,0.9);
+                    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                    border-radius: 5px;
+                    text-align: right;
+                }
+                .title {
+                    font-size: 18pt;
+                    font-weight: bold;
+                }
+                .src {
+                    font-size: 10pt;
+                }
+
+            </style>
+
+        </head>
+        <body>
+
+        <div id="map"></div>
+
+        <script>
+        /* **** Leaflet **** */
+
+        // Base layers
+        //  .. OpenStreetMap
+        var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors', minZoom: 15, maxZoom: 22});
+
+        //  .. CartoDB Positron
+        var cartodb = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>', minZoom: 15, maxZoom: 22});
+
+        //  .. PNOA
+        var pnoa = L.tileLayer.wms('http://www.ign.es/wms-inspire/pnoa-ma', {
+          	layers: 'OI.OrthoimageCoverage',
+          	format: 'image/png',
+          	transparent: false,
+          	continuousWorld : true,
+          	attribution: 'PNOA cedido por © <a href="http://www.ign.es/ign/main/index.do" target="_blank">Instituto Geográfico Nacional de España</a>'
+          });
+
+        // Overlay layers (TMS)
+        var lyr = L.tileLayer('./{z}/{x}/{y}.png', {tms: true, opacity: 1, attribution: "jCano", minZoom: 16, maxZoom: 21});
+
+        // Map
+        var map = L.map('map', {
+            center: [41.5385746034353, -0.6970360657597023],
+            zoom: 21,
+            minZoom: 16,
+            maxZoom: 21,
+            layers: [osm]
+        });
+
+        var basemaps = {"OpenStreetMap": osm, "CartoDB": cartodb, "PNOA": pnoa}
+        var overlaymaps = {"Ortofoto": lyr}
+
+        // Title
+        var title = L.control();
+        title.onAdd = function(map) {
+            this._div = L.DomUtil.create('div', 'ctl title');
+            this.update();
+            return this._div;
+        };
+        title.update = function(props) {
+            this._div.innerHTML = "Ruinas";
+        };
+        title.addTo(map);
+
+        // Note
+        var src = 'Copyright &copy; <a href="https://joancano.github.io/">jCano</a>';
+        var title = L.control({position: 'bottomleft'});
+        title.onAdd = function(map) {
+            this._div = L.DomUtil.create('div', 'ctl src');
+            this.update();
+            return this._div;
+        };
+        title.update = function(props) {
+            this._div.innerHTML = src;
+        };
+        title.addTo(map);
+
+
+        // Add base layers
+        L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
+
+        // Fit to overlay bounds (SW and NE points with (lat, lon))
+        map.fitBounds([[41.53807851010407, -0.6964304175794], [41.53907069676653, -0.6976417139400046]]);
+
+        </script>
+
+        </body>
+        </html>

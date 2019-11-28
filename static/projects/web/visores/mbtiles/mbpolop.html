@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="lib/leaflet.css" />
+
+<title>Leaflet & MBtiles en JS</title>
+		<style>
+			body {
+				padding: 0;
+				margin: 20;
+			}
+			html, body, #map {
+				height: 95%;
+				width: 95%;
+				padding: 0;
+				margin: 20;
+			}
+		</style>
+</head>
+<body>
+<div id="map" ></div>
+
+<p>	Este es un ejemplo de visualización del municipio de Polop con  <a href="https://github.com/mapbox/mbtiles-spec" target="_blank">MBTiles</a> sqlite database file.</p>
+    <p>
+        <ul>
+            <li>Puedes descargar el script PHP-MBTiles-Server PHP aquí: <a href="https://github.com/bmcbride/PHP-MBTiles-Server/blob/master/mbtiles.php" target="_blank">PHP-MBTiles-Server</a> (requires PHP/PDO).</li>
+            <li>Puedes descargar el archivo mbtiles aquí <a href="https://github.com/JoanCano/Joanproject/tree/master/visor/mbtiles/db/polop.mbtiles">polop.mbtiles</a> (~35 MB).</li>
+            <li>El archivo ha sido generado mediante el software <a href="https://digimapas.blogspot.com.es/p/descargas.html">SASPlanet</a> y las
+            imágenes descargadas de Google Satellite </li>
+        </ul>
+    </p>
+
+<script src="lib/leaflet.js"></script>
+<script src="lib/mbtiles.min.js"></script>
+<script>
+var mbt = MBTiles.load(
+  'db/polop.mbtiles',
+  function(me) {
+    //var centerVal = me.metadata('center').split(",");
+    var boundVal  = me.metadata('bounds').split(",");
+    var bounds    = new L.LatLngBounds( new L.LatLng(boundVal[1],boundVal[0]), new L.LatLng(boundVal[3],boundVal[2]) );
+    console.log(boundVal);
+    var MBLayer = L.TileLayer.extend({
+      options: {
+        minZoom: me.metadata('minzoom'),
+        maxZoom: me.metadata('maxzoom'),
+        tileSize: 256,
+        tms: true,
+        errorTileUrl: '',
+        attribution: me.metadata('attribution'),
+        zoomOffset: 0,
+        opacity: 1,
+        bounds: bounds,
+        continuousWorld: true,
+        unloadInvisibleTiles: L.Browser.mobile,
+        updateWhenIdle: L.Browser.mobile
+      },
+      getTileUrl: function (tilePoint) {
+        this._adjustTilePoint(tilePoint);
+        var tile = me.getTileImage(tilePoint.x, tilePoint.y, this._getZoomForUrl());
+        return tile;
+      }
+    }); 
+    
+    var MBLayerObj = new MBLayer('dummy',{tms:true});
+    var map = new L.Map('map',
+      {
+        minZoom: me.metadata('minzoom'),
+        maxZoom: me.metadata('maxzoom')
+      }
+    );
+    console.log(me.metadata('minzoom'));
+    map.addLayer(MBLayerObj);
+    //console.log(centerVal);
+    //map.setView(new L.LatLng(parseFloat(centerVal[1]),parseFloat(centerVal[0])),parseInt(centerVal[2]));
+    map.fitBounds(bounds);
+  }
+);
+</script>
+</body>
+</html>

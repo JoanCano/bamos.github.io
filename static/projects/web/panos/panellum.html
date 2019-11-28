@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="joan" >
+
+    <title>Guate</title>
+
+    <link rel="stylesheet" href="pannellum.css">
+
+     <style>
+     body, html{
+       width: 100%;
+       height: 100%;
+       margin: 0;
+     }
+    #panorama {
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+
+    <script type="text/javascript" src="pannellum.js"></script>
+
+</head>
+
+<body>
+
+        <div id="panorama"></div>
+						<script>
+							pannellum.viewer('panorama', {
+							"type": "equirectangular",
+							"title":"Escuelita",
+							"author":"Joan Cano",
+							"panorama": "pano2.jpg",
+							//"autoLoad": true,
+							"compass": true
+							});
+						</script>
+
+</body>
+
+</html>
