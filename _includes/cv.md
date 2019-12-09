@@ -270,4 +270,11 @@ Linux, Windows
   </td>
 </tr>
 
+<tr>
+  <td class='col-md-6'><strong>Cartografía colaborativa con Discapacitados Sin Fronteras: Wheelmap.org</strong></td>
+  <td markdown="1">
+  Joan Cano & Nacho Orte - Mapeado Colaborativo 19/12/02 - <a href='http://bit.ly/wheelmapMC' target='_blank'>Presentación</a>
+  </td>
+</tr>
+
 </table>
