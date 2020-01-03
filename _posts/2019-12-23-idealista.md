@@ -55,6 +55,7 @@ Algunos de los filtros que nos permite son:
 |locationId     |string     |idealista location code|                                                   |
 |maxItems       |integer    |items per page         |50 as maximum                                      |
 
+<br>
 
 La respuesta a la llamada lo devuelve en formato [JSON](https://joancano.github.io/data/idealista/ide.json). Para evitarme problemas al trabajar con un GIS, lo que he hecho es guardarme la petición
 como JSON y lo he convertido a [CSV](https://joancano.github.io/data/idealista/ide.csv) en [https://json-csv.com/](https://json-csv.com/).
