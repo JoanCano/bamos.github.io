@@ -4,6 +4,8 @@ title:  "Cómo mejorar una fotografía con GIMP"
 date:   2019-09-29
 categories: [linux, fotografia]
 ---
+
+
 4. Getting rid of unwanted purple light
 Make sure you do not have any selected area, it is neccesary to apply to whole picture
 a. Go to:

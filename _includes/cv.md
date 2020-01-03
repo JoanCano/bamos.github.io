@@ -277,4 +277,11 @@ Linux, Windows
   </td>
 </tr>
 
+<tr>
+  <td class='col-md-6'><strong>Introducción a QField</strong></td>
+  <td markdown="1">
+  Joan Cano - <a href='http://bit.ly/qfieldMC' target='_blank'>Presentación</a>
+  </td>
+</tr>
+
 </table>

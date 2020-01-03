@@ -13,7 +13,8 @@ A continuación dejo algunos visores que hice como prueba para aprender a montar
 ### Visor 1.  <a href='javascript: none' onclick='$("#abs_visor1").toggle()'>Mapa simple</a> <br>
   
    <div id="abs_visor1" style="text-align: justify; display: none" markdown="1">
-   Se trata de un visor sencillo. El mapa está centrado en Zaragoza. El objetivo es mostrar la localización de algún lugar que se quiera resaltar. <br>
+   Se trata de un visor sencillo. El mapa está centrado en Zaragoza. El objetivo es mostrar la localización de algún lugar que se quiera resaltar. 
+   <br>
    [Visor Mapa simple](https://joancano.github.io/static/projects/web/visores/zaragoza.html) 
    </div>
    
@@ -30,27 +31,29 @@ A continuación dejo algunos visores que hice como prueba para aprender a montar
 
    Actualmente el visor está desactualizado puesto que hay una nueva ley vigente. Además, AESA ya ha creado un visor web para poder comprobar donde se va a operar o volar recreativamente.
    <br>
+
    [Visor 2. Zonas de vuelo con dron (Zaragoza)](https://joancano.github.io/static/projects/web/visores/rpa.html) 
    </div>
 
 
 ### Visor 3. <a href='javascript: none' onclick='$("#abs_visor3").toggle()'>MBTiles</a> <br>
 
-   <div id="abs_visor1" style="text-align: justify; display: none" markdown="1">
+   <div id="abs_visor3" style="text-align: justify; display: none" markdown="1">
       El siguiente visor tiene como mapa base un <a href="http://wiki.openstreetmap.org/wiki/MBTiles">MBTiles</a>. Este tipo de formato permite almacenar un mosaicado de imágenes en un solo archivo, como una base de datos SQLite. Me gusta utilizar MBTiles, por que te permite trabajar sin conexión a internet y se mueve fino fino, además del poco espacio que ocupan las teselas.
    <br>
       [Visor 3. MBTiles](https://joancano.github.io/static/projects/web/visores/mbtiles/mbpolop.html) 
    </div>
    
 
-### Visor 4. <a href='javascript: none' onclick='$("#abs_visor4").toggle()'>Window Slider</a> <br>
+### Visor 4. <a href='javascript: none' onclick='$("#abs_visor4").toggle()'>Windows Slider</a> <br>
 
    <div id="abs_visor4" style="text-align: justify; display: none" markdown="1">
-      Puede surgir la necesidad de comparar distintas cartografías. Ello es muy sencillo en GIS de escritorio, pero cuando además quiere compartir con muchos usuarios este tipo de visores me parecen perfectos. En este caso se comparan servicios WMS multitemporal de mi pueblo.
+      Puede surgir la necesidad de comparar distintas cartografías. Ello es muy sencillo en GIS de escritorio, 
+      pero cuando además quiere compartir con muchos usuarios este tipo de visores me parecen perfectos. 
+      En este caso se comparan servicios WMS multitemporal de mi pueblo.
    <br>
       [Visor 4. Window Slider](https://joancano.github.io/static/projects/web/visores/ventanas/windows.html) 
    </div>
-   
 
 ### Visor 5. <a href='javascript: none' onclick='$("#abs_visor5").toggle()'>Geo Photos con Flickr</a> <br>
 
@@ -89,6 +92,7 @@ A continuación dejo algunos visores que hice como prueba para aprender a montar
    Es un visor web simple, generado mediante la herramienta gdalAteselas de QGIS 3. Este es el enlace al post donde explico como realizarlo:
    [https://joancano.github.io/gis/2019/05/18/tiles_qgis.html](https://joancano.github.io/gis/2019/05/18/tiles_qgis.html)
    <br>
+
    [Visor 8. Raster tiles](https://joancano.github.io/static/projects/web/visores/ruinas_Belchite/index.html)   
    </div>
 
