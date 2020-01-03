@@ -55,6 +55,7 @@ Algunos de los filtros que nos permite son:
 |locationId     |string     |idealista location code|                                                   |
 |maxItems       |integer    |items per page         |50 as maximum                                      |
 
+
 La respuesta a la llamada lo devuelve en formato [JSON](https://joancano.github.io/data/idealista/ide.json). Para evitarme problemas al trabajar con un GIS, lo que he hecho es guardarme la petición
 como JSON y lo he convertido a [CSV](https://joancano.github.io/data/idealista/ide.csv) en [https://json-csv.com/](https://json-csv.com/).
 
@@ -69,4 +70,6 @@ En el ejemplo de arriba estoy preguntado por las casas que se alquilan en un rad
 
 <br>
 
-<video src="https://joancano.github.io/data/idealista/ide.mp4" width="640" height="480"></video>
+<video width="640" height="410" controls>
+  <source src="https://joancano.github.io/data/idealista/ide.mp4" type="video/mp4">
+</video>
