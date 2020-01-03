@@ -16,14 +16,14 @@ En este caso vamos a utilizar la herramienta *Heal Selection Tool* dentro del pl
 En la página web de descarga aparecen los ejecutables y scripts para los sistemas operativos Linux y Windows. En ambos casos, dependiendo de en que SO estemos trabajando tendremos que descargarnos los archivos e instalarlos de la siguiente manera:
 
 ```bash
-# linux
+# desde Linux
 
 + Mostrar los archivos ocultos (ctrl+h) y dirigiros a /home/user/.gimp-2.8/plug-ins y mover los archivos descargados aquí
 + Extraer el archivo *"resynthesizer.tar_0.gz"* y luego *"Resynthesizer"*.
 + Darle permisos de ejecución a todos los archivos para "lectura y escritura" y marcar la casilla de verificación "permitir ejecutar el archivo como un programa"
 + Lanza y restaura Gimp para que se apliquen los cambios
 
-# Windows
+# desde Windows
 + Copiar los archivos C:/users/user_name/.gimp-2.8/plugins
 
 + Lanza y restaura Gimp para que se apliquen los cambios
@@ -36,6 +36,7 @@ Instala el siguiente paquete y ya tendrás las mismas herramientas
 ```bash
 $ sudo apt install gimp-plugin-registry
 ```
+
 Ahora ya puedes utilizar la herramienta Filters > Enhance > Heal Selection Tool
 
 Actualizo con los siguientes párrafos un problema que he tenido recientemente, y es que en la versión que explico arriba es la 2.8, cuando la actual (08-10-19) es la 2.10.12.

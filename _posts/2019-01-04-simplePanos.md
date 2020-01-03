@@ -18,7 +18,7 @@ Tenemos que tener 4 archivos. Entre ellos están el JS y CSS que se deben descar
 Y este sería el código html, fijaros en el contenedor 'panorama':
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

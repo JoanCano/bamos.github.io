@@ -12,7 +12,7 @@ Saber la hora en la que se realizaron era necesario, puesto que todas estaban a 
 que la solución recaía en establecer una fecha y hora de inicio en todas, para luego ejecutar el siguiente **script**
 en el lenguaje de consola *bash*.
 
-```
+```bash
 #!/bin/bash
 a=0
 for i in `ls`
@@ -27,9 +27,9 @@ done
 
 Establecer la misma hora a todas las imágenes es sencillo, utilizando la librería que se aprecia arriba (exiftool),
 mediante la misma etiqueta -DateTimeOriginal.. Un ejemplo!
-```
-> exiftool "-DateTimeOriginal+=Y:M:D h:m:s" filename.png
-> exiftool "-DateTimeOriginal+=2017:10:8 5:30:7" filename.png
+```bash
+$ exiftool "-DateTimeOriginal+=Y:M:D h:m:s" filename.png
+$ exiftool "-DateTimeOriginal+=2017:10:8 5:30:7" filename.png
 ```
 Obviamente, hemos de instalar exiftools...
 

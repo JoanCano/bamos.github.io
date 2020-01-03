@@ -6,6 +6,7 @@ author: "Joan Cano"
 categories: [gis, teledetección]
 ---
 
+POST PENDIENTE ACTUALIZACIÓN
 
 Se han utilizado espectroradiómetros para conocer los pigmentos en las paredes a partir de varias firmas espectrales recogidas.
 Obtención de índices derivados que permitan caracterizar diversos aspectos de la imagen, tales como pigmentos férricos, vegetación, presencia de desconchados, costras, etc

@@ -5,6 +5,9 @@ date:   2019-11-18
 categories: [linux, OSM]
 ---
 
+POST PENDIENTE ACTUALIZACIÓN
+
+
 Esta entrada la escribo a raíz de una publicación que he leído de [Michal Migurski](https://medium.com/@michalmigurski), la cual podéis encontrar [aquí](https://medium.com/@michalmigurski/mapping-remote-roads-with-openstreetmap-rapid-and-qgis-bfee74f14ae0), es básicamente un resumen de su post.
 
 Se trata de una manera de realizar digitalizaciones rápides mediante [RapID][https://mapwith.ai/rapid], una herramienta creada por Facebook, la cual ayuda está basada en el antiguo iD de OSM en web, con la diferencia que RapID nos ayuda a trazar nuestras líneas para la carreteras con inteligencia artificial.

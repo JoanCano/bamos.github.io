@@ -69,6 +69,28 @@ title: "Library"
 
 + [Digitalización avanzada en QGIS](https://www.cursosgis.com/digitalizacion-avanzada-en-qgis-complementos-de-digitalizacion-mas-completos/)
 
++ [GENERANDO GML DESDE EL COMPLEMENTO “PARCATGML” EN QGIS 3.X.](https://zonegis.es/generando-gml-desde-el-complemento-parcatgml-en-qgis-3-x/)
+
++ [Qgis-earthengine-examples](https://github.com/giswqs/qgis-earthengine-examples)
+
++ [Reclassifying Rasters using gdal_calc](https://spatialthoughts.com/2019/12/28/gdal-calc/)
+
++ [Input - Survey made easy (mobile app)](https://inputapp.io/)
+
++ [Cómo crear un GeoPDF con QGIS](https://mappinggis.com/2019/11/como-crear-un-geopdf-con-qgis/)
+
++ [Guide to GeoTIFF compression and optimization with GDAL](https://kokoalberti.com/articles/geotiff-compression-optimization-guide/?utm_campaign=Spatial%20Awareness&utm_medium=email&utm_source=Revue%20newsletter)
+
++ [Customizing QGIS with Python](https://courses.spatialthoughts.com/pyqgis-in-a-day.html)
+
++ [Landscape Archaeology - GIS and spatial analysis for archaeology](https://landscapearchaeology.org/)
+
++ [Aplicación de las TICs a la enseñanza del urbanismo y la ordenación del territorio en la ingeniería civil](https://digibug.ugr.es/bitstream/handle/10481/23829/PUBLICACION_DOCENTE_RODRIGUEZ_ROJAS_TIC.pdf?sequence=1&isAllowed=y)
+
+
+### Databases
+
++ [PostgreSQL Interactive Learning Portal](https://learn.crunchydata.com/postgis)
 
 
 ### Vector Tiles
@@ -126,6 +148,14 @@ title: "Library"
 
 + [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
 
+#### Alternativas Autocad
+
++ [SelfCAD](https://www.selfcad.com/)
++ [FreeCAD](https://www.freecadweb.org/)
++ [TinkerCAD](https://www.tinkercad.com/)
++ [LibreCAD](https://librecad.org/)
++ [QCad](https://qcad.org/en/)
+
 ### Geo + Photos
 
 + [Geossetter](http://www.geosetter.de/en/download/)
@@ -167,13 +197,21 @@ title: "Library"
 
 + [Tasking Manager](https://tasks-assisted.hotosm.org/)
 
++ [osm2igeotopo](https://github.com/igeofr/osm2igeotopo)
+
++ [Switch2OSM](https://switch2osm.org/using-tiles/)
+
++ [Further and Faster Together: the Future of OSM](https://medium.com/devseed/further-and-faster-together-the-future-of-osm-bbcec6cb8f0d)
 
 
 ## Photo editing
 
-+ https://templatetoaster.com/tutorials/gimp-resynthesizer-plugin/
++ [GIMP Resynthesizer Plugin](https://templatetoaster.com/tutorials/gimp-resynthesizer-plugin/)
 
 + [http://imageplay.io/](http://imageplay.io/)
+
++ [Photoscape](http://x.photoscape.org/)
+
 
 ## Photogrammetry
 
@@ -199,6 +237,15 @@ title: "Library"
 
 + [Cleaning up a 3D scan with Meshmixer](https://3dtotal.com/tutorials/t/cleaning-up-a-3d-scan-with-meshmixer?fbclid=IwAR35kehLPl_opEXhB8inHAyXn0XSHK6ujngrYfULTdCq4fmQQWyPLg8rvaA#article-introduction)
 
++ [Getting Started with Photogrammetry](https://medium.com/realities-io/getting-started-with-photogrammetry-part-2-f957c9e8d61d)
+
++ [Small object photogrammetry – how to take photos](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/)
+
++ [Getting started with Photogrammetry — with an Smartphone camera](https://link.medium.com/wzeZYMBVv2)
+
++ [RealityCapture tutorial: Image Layers](https://youtu.be/Xo-aBFMv_OQ)
+
++ [3D + Design for Cultural Heritage by Thomas Flynn](http://nimbuspin.com/blog/)
 
 ### Photogrammetry Software
 
@@ -237,6 +284,7 @@ title: "Library"
 
 + [Raster Vision](https://docs.rastervision.io/en/0.10/)
 
++ [Scikit-image provides estimates of length and width of rivers. Built in Python ](https://github.com/briannapagan/get_river_width)
 
 
 ## R software
@@ -313,6 +361,7 @@ title: "Library"
 
 + [Análisis espacial con R: Usa R como un SIG](http://eujournal.org/files/journals/1/books/JeanFrancoisMas.pdf)
 
++ [Creación de visores de mapas web de Leaflet en R](https://mappinggis.com/2019/04/creacion-de-visores-de-mapas-web-de-leaflet-en-r/)
 
 ## Tools on web
 
@@ -374,6 +423,20 @@ title: "Library"
 + [Osigris] App móvil para gestión de cultivos}(http://www.osigris.com/)
 
 + [Tabula. Extracción tablas desde PDF](https://tabula.technology/)
+
++ [ai2-3D Forensics](https://www.ai2-3d.com/3d-stuff)
+
++ [Art station](https://www.artstation.com/jobs)
+
++ [The Programming historian ](https://programminghistorian.org/en/lessons/?topic=mapping)
+
+## VR
+
++ [Graphql360 - 360 tours](https://github.com/graphql360)
+
++ [VR View for the Web](https://developers.google.com/vr/develop/web/vrview-web#self-hosting)
+
++ [Unity VR Tutorial 2018 - How to create your first VR app in 11 minutes for Google Cardboard](https://www.youtube.com/watch?v=OEP7sMwfZnE)
 
 
 ## Workshops

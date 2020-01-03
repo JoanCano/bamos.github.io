@@ -44,7 +44,7 @@ Dejo aquí abajo el código del archivo html que he modificado para el visor de 
 
 #### [Ver mapa](https://joancano.github.io/static/projects/visores/tiles)
 
-```
+```html
 <!DOCTYPE html>
         <html lang="en">
           <head>

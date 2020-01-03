@@ -10,10 +10,13 @@ categories: [leaflet]
 Este es uno de los primeros posts que escribí cuando empecé a aprender web mapping con Leaflet.
 A continuación dejo algunos visores que hice como prueba para aprender a montarlos. No he revisado el código desde hace años por lo que seguramente habrán muchas cosas a mejorar. Si vas a utilizar el código, te recomiendo que lo revises.
 
-### [Visor 1. Mapa simple](https://joancano.github.io/static/projects/web/visores/zaragoza.html)
-
-Se trata de un visor sencillo. El mapa está centrado en Zaragoza. El objetivo es mostrar la localización de algún lugar que se quiera resaltar.
-
+### Visor 1.  <a href='javascript: none' onclick='$("#abs_visor1").toggle()'>Mapa simple</a> <br>
+  
+   <div id="abs_visor1" style="text-align: justify; display: none" markdown="1">
+   Se trata de un visor sencillo. El mapa está centrado en Zaragoza. El objetivo es mostrar la localización de algún lugar que se quiera resaltar.
+   [Visor Mapa simple](https://joancano.github.io/static/projects/web/visores/zaragoza.html) 
+   </div>
+   
 
 ### [Visor 2. Zonas de vuelo con dron (Zaragoza)](https://joancano.github.io/static/projects/web/visores/rpa.html)
 

@@ -69,6 +69,7 @@ $ bundle -v
 $ sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 $ gem install nokogiri
 ```
+
 [Fuente](https://nokogiri.org/tutorials/installing_nokogiri.html)
 
 También puedes probar a actualizar las gemas
@@ -94,21 +95,22 @@ Cada post empezará de la siguiente manera, escrito en markdown:
 
 ```markdown
 ---
-#!markdown
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2015-11-17 16:16:01 -0600
+date:   2015-11-17 
 categories: jekyll update
 ---
 ```
+
 ### Visualización del blog
 
 Como se ha descargado el blog desde Github, lo primero será iniciar el repositorio en git.
 
 ```bash
-cd joancano.github.io
-git init
+$ cd joancano.github.io
+$ git init
 ```
+
 Jekyll también viene con un servidor de desarrollo incorporado que te permitirá previsualizarlo cómo en tu navegador localmente.
 
 ```bash
@@ -117,8 +119,8 @@ $ bundle exec jekyll serve
 
 En caso de que no nos permita visualizarlo, es por los permisos del navegador. Tenemos que activar el puerto 4000.
 
-```
-$ sudo ufw allow 4000
-```
+
+`$ sudo ufw allow 4000`
+
 
 Ya tenemos nuestro blog corriendo en [local](http://localhost:4000/joancano.github.io/)!. Ahora solo tendremos que subirlo a Github para poder tener nuestro blog en la web.
