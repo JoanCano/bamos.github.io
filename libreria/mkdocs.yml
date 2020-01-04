@@ -1,1 +1,10 @@
-site_name: Librería
+site_name: Joan Cano
+nav:
+    - Blog: ../../blog
+    - Libreria: ../site  
+    - 3D: ../../3D
+    - Lifemmetry: https://joancano.gitbook.io/lifemmetry/
+theme: 
+    name: bootstrap
+repo_url: https://joancano.github.io/
+site_author: Joan Cano
