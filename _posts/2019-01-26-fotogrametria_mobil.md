@@ -12,8 +12,11 @@ A día de hoy cualquier usuario con smartphone puede iniciarse en la fotogrametr
 Pero está claro que para un buen resultado las cámaras de los móviles todavía se quedan lejos, sobre todo por que están diseñados para tomar imágenes automáticamente con los mejores valores para la escena.
 
 En mi opinión, la fotogrametría se ha vuelto muchísimo más accesible a todos los públicos, y es que con tan solo dos datos a mi me queda bastante claro,
+
 + Meshroom, como el mejor software libre que conozco a día de hoy (04-01-20)
-+ CapturingReality, al haber incorporado en el mercado un nuevo concepto de pago por software. Ahora mismo, la licencia "demo" es gratuita, se puede procesar prácticamente todo y únicamente adquiere carácter comercial cuando se exporta la malla, 
+
++ CapturingReality, al haber incorporado en el mercado un nuevo concepto de pago por software. Ahora mismo, la licencia "demo" es gratuita, 
+se puede procesar prácticamente todo y únicamente adquiere carácter comercial cuando se exporta la malla, 
 la cual se paga según los megapíxeles utilizados y cantidad de nubes de puntos en el caso de haber utilizado escáneres.
 
 En el caso de que quieras realizar una prueba, escoge un espacio, ya sea interior o exterior, o incluso un objeto.

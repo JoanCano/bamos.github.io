@@ -32,14 +32,15 @@ A continuación dejo algunos visores que hice como prueba para aprender a montar
    Actualmente el visor está desactualizado puesto que hay una nueva ley vigente. Además, AESA ya ha creado un visor web para poder comprobar donde se va a operar o volar recreativamente.
    <br>
 
-   [Visor 2. Zonas de vuelo con dron (Zaragoza)](https://joancano.github.io/static/projects/web/visores/rpa.html) 
+   [Visor 2. Zonas de vuelo con dron (Zaragoza)](https://joancano.github.io/static/projects/web/visores/rpa.html)
    </div>
-
 
 ### Visor 3. <a href='javascript: none' onclick='$("#abs_visor3").toggle()'>MBTiles</a> <br>
 
    <div id="abs_visor3" style="text-align: justify; display: none" markdown="1">
-      El siguiente visor tiene como mapa base un <a href="http://wiki.openstreetmap.org/wiki/MBTiles">MBTiles</a>. Este tipo de formato permite almacenar un mosaicado de imágenes en un solo archivo, como una base de datos SQLite. Me gusta utilizar MBTiles, por que te permite trabajar sin conexión a internet y se mueve fino fino, además del poco espacio que ocupan las teselas.
+      El siguiente visor tiene como mapa base un MBTiles. 
+      Este tipo de formato permite almacenar un mosaicado de imágenes en un solo archivo, como una base de datos SQLite. 
+      Me gusta utilizar MBTiles, por que te permite trabajar sin conexión a internet y se mueve fino fino, además del poco espacio que ocupan las teselas.
    <br>
       [Visor 3. MBTiles](https://joancano.github.io/static/projects/web/visores/mbtiles/mbpolop.html) 
    </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SQL Básico"
-date:   2019-11-18
+date:   2019-12-17
 categories: [linux, programacion, SQL]
 ---
 
@@ -93,12 +93,46 @@ Si la conexion falla, hay que cambiar en la configuracion dos archivos, hba y po
 
 ### Tipos de datos POR COMPLETAR
 
-```sql
-+ Integers
-+ Real (floating point)
-+ String (ASCII)
-+ Date/Time
-```
+| Nombre                                  | Alias              | Descripcion                                            | 
+|-----------------------------------------|--------------------|--------------------------------------------------------| 
+| bigint                                  | int8               | entero con signo de ocho bytes                         | 
+| bigserial                               | serial8            | entero autoincremental de ocho bytes                   | 
+| bit [ (n) ]                             |                    | cadena de bits de longitud fija                        | 
+| bit varying [ (n) ]                     | varbit             | cadena de bits de longitud variable                    | 
+| boolean                                 | bool               | Booleano lógico (verdadero/falso)                      | 
+| box                                     |                    | rectángulo en un plano                                 | 
+| bytea                                   |                    | datos binarios ("arreglo de bytes")                    | 
+| character varying [ (n) ]               | varchar [ (n) ]    | cadena de caracteres de longitud variable              | 
+| character [ (n) ]                       | char [ (n) ]       | cadena de caracteres de longitud fija                  | 
+| cidr                                    |                    | dirección de red IPv4 o IPv6                           | 
+| circle                                  |                    | circulo en un plano                                    | 
+| date                                    |                    | fecha de calendario (año, mes, día)                    | 
+| double precision                        | float8             | número de punto flotante de precisión doble (8 bytes)  | 
+| inet                                    |                    | dirección de equipo de IPv4 o IPv6                     | 
+| integer                                 | int, int4          | entero con signo de cuatro bytes                       | 
+| interval [ fields ] [ (p) ]             |                    | lapso de tiempo                                        | 
+| line                                    |                    | linea infinita en un plano                             | 
+| lseg                                    |                    | segmento de linea en un plano                          | 
+| macaddr                                 |                    | Dirección MAC (Media Access Control)                   | 
+| money                                   |                    | importe monetario                                      | 
+| numeric [ (p, s) ]                      | decimal [ (p, s) ] | numérico exacto de precisión seleccionable             | 
+| path                                    |                    | camino geométrico en un plano                          | 
+| point                                   |                    | punto geométrico en un plano                           | 
+| polygon                                 |                    | camino cerrado geométrico en un plano                  | 
+| real                                    | float4             | número de punto flotante de precisión simple (4 bytes) | 
+| smallint                                | int2               | entero con signo de dos bytes                          | 
+| serial                                  | serial4            | entero autoincremental de cuatro bytes                 | 
+| text                                    |                    | cadena de caracteres de longitud variable              | 
+| time [ (p) ] [ without time zone ]      |                    | hora del día (sin zona horaria)                        | 
+| time [ (p) ] with time zone             | timetz             | gora del día, incluyendo zona horaria                  | 
+| timestamp [ (p) ] [ without time zone ] |                    | fecha y hora (sin zona horaria)                        | 
+| timestamp [ (p) ] with time zone        | timestamptz        | fecha y hora, incluyendo zona horaria                  | 
+| tsquery                                 |                    | consulta de búsqueda de texto                          | 
+| tsvector                                |                    | documento de búsqueda de texto                         | 
+| txid_snapshot                           |                    | instantánea de ID de transacción a nivel de usuario    | 
+| uuid                                    |                    | identificador universalmente único                     | 
+| xml                                     |                    | datos XML                                              | 
+
 
 ### Conversión de datos
 

@@ -88,52 +88,6 @@ title: "Library"
 + [Aplicación de las TICs a la enseñanza del urbanismo y la ordenación del territorio en la ingeniería civil](https://digibug.ugr.es/bitstream/handle/10481/23829/PUBLICACION_DOCENTE_RODRIGUEZ_ROJAS_TIC.pdf?sequence=1&isAllowed=y)
 
 
-### Databases
-
-+ [PostgreSQL Interactive Learning Portal](https://learn.crunchydata.com/postgis)
-
-
-### Vector Tiles
-
-+ [Trabajando con teselas vectoriales](https://geoinquiets.github.io/taller-vt/)
-
-+ [teselas vectoriales y cómo generarlos con PostGIS / GeoServer](https://mappinggis.com/2017/09/que-son-los-vector-tiles-y-como-generarlos-con-geoserver/)
-
-+ [Mapa Base de IGO](https://sgtmapabaseigo.github.io/MapaBaseIGO/)
-
-+ [ICGC-vtServer](https://github.com/gencat/ICGC-vtServer)
-
-+ [ICGC-vt-postgis](https://github.com/gencat/ICGC-vt-postgis)
-
-+ [TileReduce](https://github.com/mapbox/tile-reduce)
-
-+ [Using the new MVT function in PostGIS](https://medium.com/nyc-planning-digital/using-the-new-mvt-function-in-postgis-75f8addc1d68)
-
-+ [Introducing TileJSON.io](https://www.azavea.com/blog/2019/03/04/introducing-tilejson-io/)
-
-+ [openmaptiles](https://openmaptiles.com)
-
-+ [ThRasE is a Thematic Raster Editor plugin of Qgis](https://smbyc.github.io/ThRasE/)
-
-
-
-## Linux
-
-+ [Running shell scripts from Bash](http://www.compciv.org/topics/bash/scripting/)
-
-+ [LISTADO DE COMANDOS LINUX MÁS ÚTILES](https://www.luisllamas.es/listado-comandos-linux-utiles/)
-
-+ [Linux scripts by Miguel Sevilla](https://gitlab.com/msevilla00/linux_scripts/)
-
-+ [Raspberry Pi GeoServer](https://github.com/daveb1034/R_Pi_Geo)
-
-+ [QGIS Server on Ubuntu](https://anitagraser.com/2012/03/30/qgis-server-on-ubuntu-step-by-step/)
-
-+ [AppImage applications for Linux without installation](https://appimage.github.io/)
-
-+ [https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux](https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux)
-
-
 ### Software
 
 + [Ilwis](http://www.ilwis.org)
@@ -147,6 +101,22 @@ title: "Library"
 + [GeoTrellis.geographic data processing engine for high performance applications](https://geotrellis.io/)
 
 + [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
+
+
+### Databases
+
++ [PostgreSQL Interactive Learning Portal](https://learn.crunchydata.com/postgis)
+
+## Edición de imágenes
+
++ [Manual de edición de imágenes con GIMP](https://www.qe2computing.com/manual-edicion-imagenes-gimp/)
+
++ [GIMP Resynthesizer Plugin](https://templatetoaster.com/tutorials/gimp-resynthesizer-plugin/)
+
++ [http://imageplay.io/](http://imageplay.io/)
+
++ [Photoscape](http://x.photoscape.org/)
+
 
 #### Alternativas Autocad
 
@@ -172,6 +142,23 @@ title: "Library"
 ## Git
 
 + [GitHub Learning Lab](https://lab.github.com/)
+
+
+## Linux
+
++ [Running shell scripts from Bash](http://www.compciv.org/topics/bash/scripting/)
+
++ [LISTADO DE COMANDOS LINUX MÁS ÚTILES](https://www.luisllamas.es/listado-comandos-linux-utiles/)
+
++ [Linux scripts by Miguel Sevilla](https://gitlab.com/msevilla00/linux_scripts/)
+
++ [Raspberry Pi GeoServer](https://github.com/daveb1034/R_Pi_Geo)
+
++ [QGIS Server on Ubuntu](https://anitagraser.com/2012/03/30/qgis-server-on-ubuntu-step-by-step/)
+
++ [AppImage applications for Linux without installation](https://appimage.github.io/)
+
++ [https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux](https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux)
 
 
 ## Online viewers
@@ -202,15 +189,6 @@ title: "Library"
 + [Switch2OSM](https://switch2osm.org/using-tiles/)
 
 + [Further and Faster Together: the Future of OSM](https://medium.com/devseed/further-and-faster-together-the-future-of-osm-bbcec6cb8f0d)
-
-
-## Photo editing
-
-+ [GIMP Resynthesizer Plugin](https://templatetoaster.com/tutorials/gimp-resynthesizer-plugin/)
-
-+ [http://imageplay.io/](http://imageplay.io/)
-
-+ [Photoscape](http://x.photoscape.org/)
 
 
 ## Photogrammetry
@@ -363,27 +341,6 @@ title: "Library"
 
 + [Creación de visores de mapas web de Leaflet en R](https://mappinggis.com/2019/04/creacion-de-visores-de-mapas-web-de-leaflet-en-r/)
 
-## Tools on web
-
-+ [Mapshaper](https://mapshaper.org/)
-
-+ [Spatial Data search GeoSeer](https://www.geoseer.net/)
-
-+ [GeoWe](https://www.geowe.org/)
-
-+ [Mapea4](https://github.com/sigcorporativo-ja/Mapea4)
-
-+ [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/#)
-
-+ [SQL Tutorial](https://sqlzoo.net/)
-
-+ [http://libgen.io/](http://libgen.io/)
-
-+ [SCULPTGL](https://stephaneginier.com/sculptgl/)
-
-+ [construkted reality](https://edd7.construkted.com/)
-
-+ [sculptgl](https://stephaneginier.com/sculptgl/)
 
 
 ## Random Information
@@ -429,6 +386,54 @@ title: "Library"
 + [Art station](https://www.artstation.com/jobs)
 
 + [The Programming historian ](https://programminghistorian.org/en/lessons/?topic=mapping)
+
++ [qe2computing](https://www.qe2computing.com/)
+
+
+## Tools on web
+
++ [Mapshaper](https://mapshaper.org/)
+
++ [Spatial Data search GeoSeer](https://www.geoseer.net/)
+
++ [GeoWe](https://www.geowe.org/)
+
++ [Mapea4](https://github.com/sigcorporativo-ja/Mapea4)
+
++ [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/#)
+
++ [SQL Tutorial](https://sqlzoo.net/)
+
++ [http://libgen.io/](http://libgen.io/)
+
++ [SCULPTGL](https://stephaneginier.com/sculptgl/)
+
++ [construkted reality](https://edd7.construkted.com/)
+
++ [sculptgl](https://stephaneginier.com/sculptgl/)
+
+## Vector Tiles
+
++ [Trabajando con teselas vectoriales](https://geoinquiets.github.io/taller-vt/)
+
++ [teselas vectoriales y cómo generarlos con PostGIS / GeoServer](https://mappinggis.com/2017/09/que-son-los-vector-tiles-y-como-generarlos-con-geoserver/)
+
++ [Mapa Base de IGO](https://sgtmapabaseigo.github.io/MapaBaseIGO/)
+
++ [ICGC-vtServer](https://github.com/gencat/ICGC-vtServer)
+
++ [ICGC-vt-postgis](https://github.com/gencat/ICGC-vt-postgis)
+
++ [TileReduce](https://github.com/mapbox/tile-reduce)
+
++ [Using the new MVT function in PostGIS](https://medium.com/nyc-planning-digital/using-the-new-mvt-function-in-postgis-75f8addc1d68)
+
++ [Introducing TileJSON.io](https://www.azavea.com/blog/2019/03/04/introducing-tilejson-io/)
+
++ [openmaptiles](https://openmaptiles.com)
+
++ [ThRasE is a Thematic Raster Editor plugin of Qgis](https://smbyc.github.io/ThRasE/)
+
 
 ## VR
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cómo editar en OSM con RapID"
-date:   2019-11-18
+date:   2019-11-25
 categories: [linux, OSM]
 ---
 

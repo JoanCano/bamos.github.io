@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Extracción y uso de datos de Idealista"
-date:   2019-11-18
+date:   2019-12-23
 categories: [linux, OSM, programacion]
 ---
 
