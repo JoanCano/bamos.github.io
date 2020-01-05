@@ -3,15 +3,24 @@ layout: singlePage
 title: "Library"
 ---
 
-## Blender
+### 3D Design + VR
 
 + [Blender Basics: Classroom Tutorial Book](https://archive.org/details/2017BlenderBasics/page/n21)
 
 + [Open Image Denoise en Blender 2.81](http://akirasan.net/intel-r-open-image-denoise/)
 
++ [Marui for Blender](https://www.marui-plugin.com/blender-xr/)
+
++ [Tilt Brush](https://www.tiltbrush.com/)
+
++ [Graphql360 - 360 tours](https://github.com/graphql360)
+
++ [VR View for the Web](https://developers.google.com/vr/develop/web/vrview-web#self-hosting)
+
++ [Unity VR Tutorial 2018 - How to create your first VR app in 11 minutes for Google Cardboard](https://www.youtube.com/watch?v=OEP7sMwfZnE)
 
 
-## GIS & Remote Sensing
+### GIS & Remote Sensing
 
 + [QGIS Tips – Custom feature forms with Python logic](https://nathanw.net/2011/09/05/qgis-tips-custom-feature-forms-with-python-logic/)
 
@@ -88,26 +97,12 @@ title: "Library"
 + [Aplicación de las TICs a la enseñanza del urbanismo y la ordenación del territorio en la ingeniería civil](https://digibug.ugr.es/bitstream/handle/10481/23829/PUBLICACION_DOCENTE_RODRIGUEZ_ROJAS_TIC.pdf?sequence=1&isAllowed=y)
 
 
-### Software
-
-+ [Ilwis](http://www.ilwis.org)
-
-+ [Orfeo toolbox](https://www.orfeo-toolbox.org/)
-
-+ [Grass GIS](http://grass.osgeo.org/wiki/GRASS_and_Paraview)
-
-+ [Herramientas y manuales de Sentinel Toolbox para SNAP](http://www.gisandbeers.com/manuales-de-sentinel-toolbox-para-snap/)
-
-+ [GeoTrellis.geographic data processing engine for high performance applications](https://geotrellis.io/)
-
-+ [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
-
 
 ### Databases
 
 + [PostgreSQL Interactive Learning Portal](https://learn.crunchydata.com/postgis)
 
-## Edición de imágenes
+### Edición de imágenes
 
 + [Manual de edición de imágenes con GIMP](https://www.qe2computing.com/manual-edicion-imagenes-gimp/)
 
@@ -117,34 +112,25 @@ title: "Library"
 
 + [Photoscape](http://x.photoscape.org/)
 
++ [Raw Therapee](http://rawtherapee.com/downloads)
 
-#### Alternativas Autocad
++ [DCRAW](https://www.cybercom.net/~dcoffin/dcraw/)
 
-+ [SelfCAD](https://www.selfcad.com/)
-+ [FreeCAD](https://www.freecadweb.org/)
-+ [TinkerCAD](https://www.tinkercad.com/)
-+ [LibreCAD](https://librecad.org/)
-+ [QCad](https://qcad.org/en/)
++ [Gimp + Ufraw](https://www.gimp.org/)
 
-### Geo + Photos
++ [Krita](https://docs.krita.org/en/)
 
-+ [Geossetter](http://www.geosetter.de/en/download/)
-
-+ [PhotoMe](https://www.photome.de/download_es.html)
-
-+ [Digikam](https://www.digikam.org/)
-
-+ [Exiftools](https://sno.phy.queensu.ca/~phil/exiftool/)
-
-+ [GPicSync](https://github.com/FrancoisSchnell/GPicSync)
++ [darktable](https://www.darktable.org/)
+    + [arrydurgin/videos](https://www.youtube.com/user/harrydurgin/videos)
 
 
-## Git
+
+### Git
 
 + [GitHub Learning Lab](https://lab.github.com/)
 
 
-## Linux
+### Linux
 
 + [Running shell scripts from Bash](http://www.compciv.org/topics/bash/scripting/)
 
@@ -161,18 +147,8 @@ title: "Library"
 + [https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux](https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux)
 
 
-## Online viewers
 
-+ [Meshes. 3DHOP](http://vcg.isti.cnr.it/3dhop/)
-
-+ [CESIUM](https://cesiumjs.org/)
-
-+ [Leaflet](https://leafletjs.com/)
-
-+ [OpenLayers](https://openlayers.org/)
-
-
-## OSM
+### OSM
 
 + [Deriving Data from Imagery](https://blog.mapillary.com/update/2019/02/19/intro-to-deriviste-and-openstreetmap.html)
 
@@ -191,7 +167,7 @@ title: "Library"
 + [Further and Faster Together: the Future of OSM](https://medium.com/devseed/further-and-faster-together-the-future-of-osm-bbcec6cb8f0d)
 
 
-## Photogrammetry
+### Photogrammetry
 
 + [GUIA DE FOTOGRAMETRÍA - 3D Collective](https://3dcollective.es/fotogrametria/)
 
@@ -225,30 +201,15 @@ title: "Library"
 
 + [3D + Design for Cultural Heritage by Thomas Flynn](http://nimbuspin.com/blog/)
 
-### Photogrammetry Software
++ [CR: Working with components:Merging components](https://support.capturingreality.com/hc/en-us/articles/115001569011-Working-with-Components-Merging-components)
 
-+ [6 Best Photogrammetry Software Tools in 2019](https://m.all3dp.com/1/best-photogrammetry-software/)
++ [CR: the blog for beginners](http://janebeecr.blogspot.com/)
 
-+ [Meshroom](https://alicevision.github.io/#meshroom)
++ [Photogrammetric vision lab](https://photogrammetric-vision.weebly.com/software.html)
 
-+ [VisualSFM](http://ccwu.me/vsfm/)
++ [What Camera Should You Use for Photogrammetry?](https://80.lv/articles/what-camera-should-you-use-for-photogrammetry/)
 
-+ [MicMac](https://micmac.ensg.eu/index.php/Accueil)
-
-+ [Photomodeler](http://www.photomodeler.com/index.html)
-
-+ [Babylon.js](https://www.babylonjs.com/)
-
-+ [Houdini](https://www.sidefx.com/products/houdini/)
-
-+ [Marmoset](https://marmoset.co/)
-
-+ [3D coat](http://3dcoat.com/es/home/)
-
-+ [Autodesk Meshmixer](http://www.meshmixer.com/)
-
-
-## Python
+### Python
 
 + [Python Scripting for Spatial Data Processing](http://chris35wills.github.io/papers/python_scripting_for_spatial_data_processing.pdf)
 
@@ -265,7 +226,7 @@ title: "Library"
 + [Scikit-image provides estimates of length and width of rivers. Built in Python ](https://github.com/briannapagan/get_river_width)
 
 
-## R software
+### R software
 
 + [R Language Mini Tutorials](https://github.com/mnr/R-for-Data-Science-Lunchbreak-Lessons)
 
@@ -343,7 +304,7 @@ title: "Library"
 
 
 
-## Random Information
+### Random Information
 
 + [Recursos ICGC en obert](https://openicgc.github.io/)
 
@@ -365,10 +326,6 @@ title: "Library"
 
 + [How to use your Raspberry Pi as a Chromecast alternative](https://thepi.io/how-to-use-your-raspberry-pi-as-a-chromecast-alternative/)
 
-+ [Marui for Blender](https://www.marui-plugin.com/blender-xr/)
-
-+ [Tilt Brush](https://www.tiltbrush.com/)
-
 + [Thecartographycorner](https://thecartographycorner.com/)
 
 + [DOCUMENTACIÓN GEOMÉTRICA DE ELEMENTOS PATRIMONIALES CON LÁSER ESCÁNER TERRESTRE](https://docplayer.es/amp/28531315-La-documentacion-geometrica-de-elementos-patrimoniales-con-laser-escaner-terrestre-la-experiencia-del-lapa-en-galicia-1.html)
@@ -389,8 +346,109 @@ title: "Library"
 
 + [qe2computing](https://www.qe2computing.com/)
 
+### Software
 
-## Tools on web
+
+#### Point cloud & mesh 
+
++ [Cloud Compare](http://www.danielgm.net/cc/)
++ [Meshlab ](http://meshlab.sourceforge.net/)
++ [Scanalyze](http://graphics.stanford.edu/software/scanalyze/) 
+
+#### GIS software
++ [Ilwis](http://www.ilwis.org)
+
++ [Orfeo toolbox](https://www.orfeo-toolbox.org/)
+
++ [Grass GIS](http://grass.osgeo.org/wiki/GRASS_and_Paraview)
+
++ [Herramientas y manuales de Sentinel Toolbox para SNAP](http://www.gisandbeers.com/manuales-de-sentinel-toolbox-para-snap/)
+
++ [GeoTrellis.geographic data processing engine for high performance applications](https://geotrellis.io/)
+
++ [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
+
+
+#### Image processing
+
++ [RawTherapee](https://rawtherapee.com/)
+
++ [XnConvert](www.xnview.com/en/xnconvert/)
+
++ [IrfanView](http://www.irfanview.com/)
+
++ [GIMP](http://www.gimp.org/)
+
++ [ImageMagick](http://www.imagemagick.org/script/index.php)
+
+#### Online viewers
+
++ [Meshes. 3DHOP](http://vcg.isti.cnr.it/3dhop/)
+
++ [CESIUM](https://cesiumjs.org/)
+
++ [Leaflet](https://leafletjs.com/)
+
++ [OpenLayers](https://openlayers.org/)
+
+#### Photogrammetry Software
+
++ [6 Best Photogrammetry Software Tools in 2019](https://m.all3dp.com/1/best-photogrammetry-software/)
+
++ [Meshroom](https://alicevision.github.io/#meshroom)
+    + [Tutorial - How to Use](https://www.youtube.com/watch?v=v_O6tYKQEBA)
+    + [Tutorial: Meshroom for Beginners](https://sketchfab.com/blogs/community/tutorial-meshroom-for-beginners/)
+
++ [VisualSFM](http://ccwu.me/vsfm/)
+
++ [MicMac](https://micmac.ensg.eu/index.php/Accueil)
+
++ [Photomodeler](http://www.photomodeler.com/index.html)
+
++ [Python Photogrammetric Toolbox](http://184.106.205.13/arcteam/ppt.php)
+
++ [Babylon.js](https://www.babylonjs.com/)
+
++ [Houdini](https://www.sidefx.com/products/houdini/)
+
++ [Marmoset](https://marmoset.co/)
+
++ [3D coat](http://3dcoat.com/es/home/)
+
++ [Autodesk Meshmixer](http://www.meshmixer.com/)
+
++ [Agisoft Metashape]()
+
++ [Pix4d]()
+
++ [OpenDroneMap]()
+
++ [CapturingReality]()
+
++ [Colmap](https://colmap.github.io/)
+
+
+#### Geo + Photos
+
++ [Geossetter](http://www.geosetter.de/en/download/)
+
++ [PhotoMe](https://www.photome.de/download_es.html)
+
++ [Digikam](https://www.digikam.org/)
+
++ [Exiftools](https://sno.phy.queensu.ca/~phil/exiftool/)
+
++ [GPicSync](https://github.com/FrancoisSchnell/GPicSync)
+
+#### Alternativas Autocad
+
++ [SelfCAD](https://www.selfcad.com/)
++ [FreeCAD](https://www.freecadweb.org/)
++ [TinkerCAD](https://www.tinkercad.com/)
++ [LibreCAD](https://librecad.org/)
++ [QCad](https://qcad.org/en/)
+
+#### Web Tools
 
 + [Mapshaper](https://mapshaper.org/)
 
@@ -411,6 +469,32 @@ title: "Library"
 + [construkted reality](https://edd7.construkted.com/)
 
 + [sculptgl](https://stephaneginier.com/sculptgl/)
+
+#### Stiching
+
++ [Stitch Panorama: a GIMP Plug-in](http://stitchpanorama.sourceforge.net/)
+
++ [Hugin](http://hugin.sourceforge.net/)
+
++ [Giganpan](http://www.gigapan.com/cms/support/download-gigapan-stitch)
+
++ [PTGui](https://www.ptgui.com/)
+
++ [PTsticherNG](https://webuser.hs-furtwangen.de/~dersch/PTStitcherNG/PTStitcherNG0.4.html)
+
++ [Panellum](https://pannellum.org/)
+
++ [Photo Sphere](https://photo-sphere-viewer.js.org/)
+
++ [Marzipano](http://www.marzipano.net/)
+
++ [Openseadragon](https://openseadragon.github.io/)
+
++ [PTAssembler](http://www.tawbaware.com/ptasmblr.htm)
+
++ [Enfuse](https://wiki.panotools.org/Enfuse)
+
+
 
 ## Vector Tiles
 
@@ -434,14 +518,6 @@ title: "Library"
 
 + [ThRasE is a Thematic Raster Editor plugin of Qgis](https://smbyc.github.io/ThRasE/)
 
-
-## VR
-
-+ [Graphql360 - 360 tours](https://github.com/graphql360)
-
-+ [VR View for the Web](https://developers.google.com/vr/develop/web/vrview-web#self-hosting)
-
-+ [Unity VR Tutorial 2018 - How to create your first VR app in 11 minutes for Google Cardboard](https://www.youtube.com/watch?v=OEP7sMwfZnE)
 
 
 ## Workshops
