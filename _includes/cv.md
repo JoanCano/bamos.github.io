@@ -189,33 +189,6 @@ Actualmente trabajo en [3DSCANNER](http://3dscanner.es) y en mis ratos libres po
 </table>
 
 
-
-## <i class="fa fa-chevron-right"></i> Servicios
-<table class="table table-hover">
-<tr>
-  <td class='col-md-3'>Programador</td>
-  <td markdown="1">
-Creación de un webmapping para la Universidad de Alicante
-  </td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>Cartógrafo</td>
-  <td markdown="1">
-Realización de cartografía como ilustración para libros
-  </td>
-</tr>
-
-<tr>
-  <td class='col-md-3'>Instructor</td>
-  <td markdown="1">
-Clases particulares de fotogrametría y teledetección
-  </td>
-</tr>
-
-</table>
-
-
 ## <i class="fa fa-chevron-right"></i> Habilidades
 <table class="table table-hover">
 <tr>

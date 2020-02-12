@@ -19,6 +19,8 @@ title: "Library"
 
 + [Unity VR Tutorial 2018 - How to create your first VR app in 11 minutes for Google Cardboard](https://www.youtube.com/watch?v=OEP7sMwfZnE)
 
++ [Pano2VR](https://ggnome.com/pano2vr)
+
 
 ### GIS & Remote Sensing
 
@@ -96,6 +98,11 @@ title: "Library"
 
 + [Aplicación de las TICs a la enseñanza del urbanismo y la ordenación del territorio en la ingeniería civil](https://digibug.ugr.es/bitstream/handle/10481/23829/PUBLICACION_DOCENTE_RODRIGUEZ_ROJAS_TIC.pdf?sequence=1&isAllowed=y)
 
++ [Creating a custom cycling map from open data ](https://dev.to/hiddewie/creating-a-custom-cycling-map-3g2a) 
+
++ [Cómo aplicar Big Data en la planificación del transporte urbano: El uso de datos de telefonía móvil en el análisis de la movilidad](https://publications.iadb.org/es/como-aplicar-big-data-en-la-planificacion-del-transporte-urbano-el-uso-de-datos-de-telefonia-movil)
+
++ 
 
 
 ### Databases
@@ -209,6 +216,10 @@ title: "Library"
 
 + [What Camera Should You Use for Photogrammetry?](https://80.lv/articles/what-camera-should-you-use-for-photogrammetry/)
 
++ [Creating a 3D digital double in Blender & Meshroom | Blender](https://youtu.be/bX_1q0N-EHE)
+
++ [RealityCapture tutorial: Camera projections in Blender](https://youtu.be/yq0XjvBlsiU)
+
 ### Python
 
 + [Python Scripting for Spatial Data Processing](http://chris35wills.github.io/papers/python_scripting_for_spatial_data_processing.pdf)
@@ -224,6 +235,8 @@ title: "Library"
 + [Raster Vision](https://docs.rastervision.io/en/0.10/)
 
 + [Scikit-image provides estimates of length and width of rivers. Built in Python ](https://github.com/briannapagan/get_river_width)
+
++ [Curso Python desde 0 by pildorasinformaticas ](https://www.youtube.com/playlist?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
 
 
 ### R software
@@ -346,6 +359,11 @@ title: "Library"
 
 + [qe2computing](https://www.qe2computing.com/)
 
++ [How to mount your Google Drive on Linux with google-drive-ocamlfuse](https://www.techrepublic.com/article/how-to-mount-your-google-drive-on-linux-with-google-drive-ocamlfuse/)
+
++ [Pandoc](https://github.com/jgm/pandoc) && [Pandoc releases](https://github.com/jgm/pandoc/releases/tag/2.9.1.1)
+
+
 ### Software
 
 
@@ -381,9 +399,14 @@ title: "Library"
 
 + [ImageMagick](http://www.imagemagick.org/script/index.php)
 
-#### Online viewers
 
-+ [Meshes. 3DHOP](http://vcg.isti.cnr.it/3dhop/)
+#### Infografía
+
++ [Vega-Lite](https://vega.github.io/vega-lite/)
+
++ [Data-Driven Documents](https://d3js.org/)
+
+#### Webmapping
 
 + [CESIUM](https://cesiumjs.org/)
 
@@ -427,6 +450,8 @@ title: "Library"
 
 + [Colmap](https://colmap.github.io/)
 
++ [3DHOP](http://vcg.isti.cnr.it/3dhop/)
+
 
 #### Geo + Photos
 
@@ -469,6 +494,9 @@ title: "Library"
 + [construkted reality](https://edd7.construkted.com/)
 
 + [sculptgl](https://stephaneginier.com/sculptgl/)
+
++ [Geocodificador online](https://geocode.localfocus.nl/)
+
 
 #### Stiching
 
