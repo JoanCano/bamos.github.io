@@ -7,6 +7,10 @@ title: "Library"
 
 + [Blender Basics: Classroom Tutorial Book](https://archive.org/details/2017BlenderBasics/page/n21)
 
++ [Blender Point Cloud Visualizer](https://blenderartists.org/t/point-cloud-visualizer/684180)
+
++ [Camera Projection - Blender](https://youtu.be/VnE9XOGSvSM)
+
 + [Open Image Denoise en Blender 2.81](http://akirasan.net/intel-r-open-image-denoise/)
 
 + [Marui for Blender](https://www.marui-plugin.com/blender-xr/)
@@ -20,6 +24,10 @@ title: "Library"
 + [Unity VR Tutorial 2018 - How to create your first VR app in 11 minutes for Google Cardboard](https://www.youtube.com/watch?v=OEP7sMwfZnE)
 
 + [Pano2VR](https://ggnome.com/pano2vr)
+
++ [Environment PBR Texture Creation using Photogrammetry - Tree Bark](https://youtu.be/gPBqrlUL1G8)
+
++ [Unity WebVR - How To Setup WebVR In Unity3d With WebGL?](https://youtu.be/ck4MDy1pUoQ)
 
 
 ### GIS & Remote Sensing
@@ -87,6 +95,7 @@ title: "Library"
 + [Reclassifying Rasters using gdal_calc](https://spatialthoughts.com/2019/12/28/gdal-calc/)
 
 + [Input - Survey made easy (mobile app)](https://inputapp.io/)
+  + [Collecting data using QGIS and Input app](https://www.lutraconsulting.co.uk/blog/2020/02/14/survey-qgis-input/)
 
 + [Cómo crear un GeoPDF con QGIS](https://mappinggis.com/2019/11/como-crear-un-geopdf-con-qgis/)
 
@@ -102,7 +111,13 @@ title: "Library"
 
 + [Cómo aplicar Big Data en la planificación del transporte urbano: El uso de datos de telefonía móvil en el análisis de la movilidad](https://publications.iadb.org/es/como-aplicar-big-data-en-la-planificacion-del-transporte-urbano-el-uso-de-datos-de-telefonia-movil)
 
-+ 
++ [Terrain shading: a QGIS plugin](http://www.zoran-cuckovic.from.hr/QGIS-terrain-shading/)
+
++ [A QGIS Tool for Automatically Identifying Asbestos Roofing](https://www.mdpi.com/2220-9964/8/3/131)
+
++ [Collecting data using QGIS and Input app](https://www.lutraconsulting.co.uk/blog/2020/02/14/survey-qgis-input/)
+
++ [RasterTracer: digitizing of underlying raster layer in QGis](https://github.com/mkondratyev85/raster_tracer)
 
 
 ### Databases
@@ -173,6 +188,8 @@ title: "Library"
 
 + [Further and Faster Together: the Future of OSM](https://medium.com/devseed/further-and-faster-together-the-future-of-osm-bbcec6cb8f0d)
 
++ [Snapping GPS tracks to Roads using QGIS and OSRM](https://spatialthoughts.com/2020/02/22/snap-to-roads-qgis-and-osrm/)
+
 
 ### Photogrammetry
 
@@ -219,6 +236,11 @@ title: "Library"
 + [Creating a 3D digital double in Blender & Meshroom | Blender](https://youtu.be/bX_1q0N-EHE)
 
 + [RealityCapture tutorial: Camera projections in Blender](https://youtu.be/yq0XjvBlsiU)
+
++ [What is photogrammetry](https://gisgeography.com/what-is-photogrammetry/)
+
++ [Introduction to Photogrammetry in RealityCapture](https://sketchfab.com/blogs/community/introduction-photogrammetry-realitycapture/)
+
 
 ### Python
 
@@ -315,7 +337,7 @@ title: "Library"
 
 + [Creación de visores de mapas web de Leaflet en R](https://mappinggis.com/2019/04/creacion-de-visores-de-mapas-web-de-leaflet-en-r/)
 
-
++ [Modern Geospatial Data Analysis with R](http://files.zevross.com/workshops/spatial/slides/html/0-deck-list.html)
 
 ### Random Information
 
@@ -363,6 +385,7 @@ title: "Library"
 
 + [Pandoc](https://github.com/jgm/pandoc) && [Pandoc releases](https://github.com/jgm/pandoc/releases/tag/2.9.1.1)
 
++ [Spy Plane U-2](https://www.sapiens.org/archaeology/satellite-imagery/)
 
 ### Software
 
@@ -524,7 +547,7 @@ title: "Library"
 
 
 
-## Vector Tiles
+### Vector Tiles
 
 + [Trabajando con teselas vectoriales](https://geoinquiets.github.io/taller-vt/)
 
@@ -548,7 +571,7 @@ title: "Library"
 
 
 
-## Workshops
+### Workshops
 
 + [Get Started With GIS in Open Source Python - Geopandas, Rasterio & Matplotlib](https://www.earthdatascience.org/workshops/gis-open-source-python/)
 
