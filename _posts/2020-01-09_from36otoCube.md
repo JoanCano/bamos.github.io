@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Fotogrametría a partir de imágenes 360"
-date:   2020-01-10
+date:   2020-01-09
 categories: [360,fotogrametria]
 ---
+https://www.nctechimaging.com//downloads-files/PhotoScan_Application_Note_v1.1.pdf
 
 # En qué programas se pueden importar imágenes 360 y poder procesarlas?
 

@@ -29,6 +29,12 @@ title: "Library"
 
 + [Unity WebVR - How To Setup WebVR In Unity3d With WebGL?](https://youtu.be/ck4MDy1pUoQ)
 
++ [Baking Ambient Occlusion texture map with xNormal](https://www.agisoft.com/index.php?id=43)
+
++ [Creating a 3D digital double in Blender & Meshroom](https://www.youtube.com/watch?v=bX_1q0N-EHE&feature=youtu.be)
+
++ []
+
 
 ### GIS & Remote Sensing
 
@@ -119,6 +125,9 @@ title: "Library"
 
 + [RasterTracer: digitizing of underlying raster layer in QGis](https://github.com/mkondratyev85/raster_tracer)
 
++ [dzetsaka : classification tool](https://www.karasiak.net/dzetsaka-how-to-make-your-first-classification-in-qgis/)
+
++ [Tutoriales GIS y Web Mapping](http://geopois.com/)
 
 ### Databases
 
@@ -241,6 +250,9 @@ title: "Library"
 
 + [Introduction to Photogrammetry in RealityCapture](https://sketchfab.com/blogs/community/introduction-photogrammetry-realitycapture/)
 
++ [The Art of Photogrammetry: How To Take Your Photos](https://www.tested.com/art/makers/460142-art-photogrammetry-how-take-your-photos/)
+
++ [Small object photogrammetry – how to take photos](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/)
 
 ### Python
 
@@ -339,7 +351,7 @@ title: "Library"
 
 + [Modern Geospatial Data Analysis with R](http://files.zevross.com/workshops/spatial/slides/html/0-deck-list.html)
 
-### Random Information
+### Random Information & Tools
 
 + [Recursos ICGC en obert](https://openicgc.github.io/)
 
@@ -387,6 +399,16 @@ title: "Library"
 
 + [Spy Plane U-2](https://www.sapiens.org/archaeology/satellite-imagery/)
 
++ [musescore](https://musescore.com/)
+
++ [Southarrowmaps](https://southarrowmaps.co.nz/#)
+
++ [https://smathermather.com/](https://smathermather.com/)
+
++ [http://tidop.usal.es/](http://tidop.usal.es/)
+
++ [ David Fletcher Art](http://www.davidfletcherart.co.uk/index.html)
+
 ### Software
 
 
@@ -409,6 +431,8 @@ title: "Library"
 
 + [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
 
++ [MDAL](https://github.com/lutraconsulting/MDAL/blob/master/README.md)
+
 
 #### Image processing
 
@@ -428,6 +452,8 @@ title: "Library"
 + [Vega-Lite](https://vega.github.io/vega-lite/)
 
 + [Data-Driven Documents](https://d3js.org/)
+
++ [Inkscape]
 
 #### Webmapping
 
@@ -474,6 +500,8 @@ title: "Library"
 + [Colmap](https://colmap.github.io/)
 
 + [3DHOP](http://vcg.isti.cnr.it/3dhop/)
+
++ [xnormal](https://xnormal.net/?lang=en)
 
 
 #### Geo + Photos
