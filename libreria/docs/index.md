@@ -351,6 +351,8 @@ title: "Library"
 
 + [Modern Geospatial Data Analysis with R](http://files.zevross.com/workshops/spatial/slides/html/0-deck-list.html)
 
++ [Canopy analysis in R using Forest Tools](https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html)
+
 ### Random Information & Tools
 
 + [Recursos ICGC en obert](https://openicgc.github.io/)
@@ -416,21 +418,17 @@ title: "Library"
 
 + [Cloud Compare](http://www.danielgm.net/cc/)
 + [Meshlab ](http://meshlab.sourceforge.net/)
-+ [Scanalyze](http://graphics.stanford.edu/software/scanalyze/) 
++ [Scanalyze](http://graphics.stanford.edu/software/scanalyze/)
++ [PDAL](https://pdal.io/)
++ [CGAL](https://www.cgal.org/news.html) 
 
 #### GIS software
 + [Ilwis](http://www.ilwis.org)
-
 + [Orfeo toolbox](https://www.orfeo-toolbox.org/)
-
 + [Grass GIS](http://grass.osgeo.org/wiki/GRASS_and_Paraview)
-
 + [Herramientas y manuales de Sentinel Toolbox para SNAP](http://www.gisandbeers.com/manuales-de-sentinel-toolbox-para-snap/)
-
 + [GeoTrellis.geographic data processing engine for high performance applications](https://geotrellis.io/)
-
 + [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
-
 + [MDAL](https://github.com/lutraconsulting/MDAL/blob/master/README.md)
 
 
@@ -445,6 +443,8 @@ title: "Library"
 + [GIMP](http://www.gimp.org/)
 
 + [ImageMagick](http://www.imagemagick.org/script/index.php)
+
++ [Rastervision: open source framework for deep learning on satellite and aerial imagery](https://rastervision.io/)
 
 
 #### Infografía
@@ -502,6 +502,10 @@ title: "Library"
 + [3DHOP](http://vcg.isti.cnr.it/3dhop/)
 
 + [xnormal](https://xnormal.net/?lang=en)
+
++ [glTF Github](https://github.com/KhronosGroup/glTF)
+
++ [Three glTF viewer](https://github.com/donmccurdy/three-gltf-viewer/releases)
 
 
 #### Geo + Photos
