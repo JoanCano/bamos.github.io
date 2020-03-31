@@ -22,13 +22,13 @@ En el caso de que queramos visualizar el resultado de nuestro blog, podemos mont
 * Tener instalado git
 
 ```bash
-$ sudo apt-get install git
+$ sudo apt install git
 ```
 
 * La versión de Ruby 2.1 o superior
 
 ``` bash
-$ sudo apt-get install ruby ruby-dev make gcc
+$ sudo apt install ruby ruby-dev make gcc
 ```
 * Las RubyGems. Si no tienes las RubyGems instaladas, puedes hacerlo manualmente descargándolas desde esta [página](https://rubygems.org/pages/download#formats)
 
@@ -41,7 +41,7 @@ En el caso de que las tengas, únicamente actualízalas:
 
 ```bash
 # Tienes que ser administrador o root
-$ gem update --system  
+$ sudo gem update --system  
 ```
 
 * Comprueba que GCC y Make se han instalado
@@ -55,17 +55,10 @@ make -v
 
 ```bash
 # Instalación de Jekyll
-$ gem install jekyll bundler
+$ sudo apt install jekyll 
+$ sudo apt install bundler
 
-# Comprobar si se ha instalado bien
-$ jekyll --version
-$ gem list jekyll
-
-# Comprobar si bundle está instalado
-$ bundle update jekyll
-$ bundle -v
-
-# Si tienes problemas con la gema nokogiri ( )
+# Si tienes problemas con la gema nokogiri
 $ sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
 $ gem install nokogiri
 ```
@@ -73,7 +66,8 @@ $ gem install nokogiri
 [Fuente](https://nokogiri.org/tutorials/installing_nokogiri.html)
 
 También puedes probar a actualizar las gemas
-$ bundle update && bundle install
+
+`$ bundle update && bundle install`
 
 ### Descargar repositorios y realizar cambios
 

@@ -45,4 +45,5 @@ Para que GDAL cree un html con Leaflet y no OL automáticamente, incluir *-l* :
 Todavía no entiendo el por qué, pero cuando he procesado los formatos png y tiff, el resultado ha sido inesperado, me genera los tiles con cambios cromáticos. Por lo que recomiendo procesar este tipo de imágenes sin ningún tipo de sistema de coordenadas y en formato jpg!
 
 Pd: aquí algunos de los visores hechos:
+
 + [Gigapixel de la Serra de Bèrnia](https://joancano.github.io/static/projects/web/gigaBernia/gp_bernia.html)

@@ -1,6 +1,8 @@
-Podría definirme como geoinquieto. Soy graduado en Geografía y Ordenación del Territorio por la [UA](https://www.ua.es/). Posteriormente me quise especializar  en GIS y teledetección, por lo que acabé cursando el [Máster de SIG y Teledetección en Zaragoza](http://titulaciones.unizar.es/tecno-infor-geo/).
+Geoinquieto. Graduado en Geografía y Ordenación del Territorio por la [UA](https://www.ua.es/). Máster en GIS y teledetección [por la universidad de Zaragoza](http://titulaciones.unizar.es/tecno-infor-geo/).
 
-Actualmente trabajo en [3DSCANNER](http://3dscanner.es) y en mis ratos libres pongo en práctica herramientas como las que publico en el apartado [Blog](/blog).
+Actualmente trabajo en [3DSCANNER](http://3dscanner.es) y en mis ratos libres pongo en práctica herramientas como las que encontrarás por este blog personal. 
+
+No se trata de un blog enfocado hacia un público en concreto, sino que redacto y publico contenido para mi mismo. Si te sirve algo de lo que ves por aquí, genial.
  <br><br>
 
 
@@ -194,13 +196,13 @@ Actualmente trabajo en [3DSCANNER](http://3dscanner.es) y en mis ratos libres po
 <tr>
   <td class='col-md-3'>Software GIS</td>
   <td markdown="1">
-QGIS, ArcGIS, SNAP, SAGA, GRASS, R,
+QGIS, ArcGIS, GDAL, SAGA, GRASS, R
   </td>
 </tr>
 <tr>
   <td class='col-md-3'>Software 3D</td>
   <td markdown="1">
-CapturingReality, Pix4D, Agisoft Meteshape, Reshaper, Cyclone, Recap, OpenDroneMap, Blender
+CapturingReality, Pix4D, Agisoft, 3DReshaper, Cyclone, Recap, OpenDroneMap, Blender
   </td>
 </tr>
 <tr>

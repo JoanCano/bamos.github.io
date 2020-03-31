@@ -6,7 +6,7 @@ author: Joan Cano
 categories: [linux]
 ---
 
-Script básico en **bash** para la instalación de los programas que suelo utilizar en Linux.
+Script en **bash** para la instalación de los programas que suelo utilizar en Linux.
 
 ```bash
 #!/bin/bash
@@ -19,37 +19,62 @@ sudo apt-get install inkscape
 
 sudo apt-get install shutter
 
-sudo apt-get install fish
+sudo apt-get install gimp 
 
-sudo apt-get install gimp
+sudo apt-get install gimp-gmic
+
+sudo apt-get install gimp-ufraw
+
+sudo apt-get install gimp-plugin-registry
 
 sudo apt-get install synapse
 
-sudo apt-get install geany
-
-sudo apt-get install virtualbox
+sudo apt-get install keepassx
 
 sudo apt-get install ruby-full
 
-# QGIS
+sudo apt-get install gedit
 
-```bash
+sudo apt-get install sublime-text
+
+sudo apt-get install darktable
+
+sudo apt-get install scribus
+
+sudo apt-get install git
+
+sudo apt-get install plank
+
+sudo apt-get install imagemagick
+
+sudo apt-get install obs-studio
+
+sudo apt-get install snap
+
+sudo apt-get install pdfsam-basic
+
+sudo apt-get install telegram-desktop
+
+sudo apt-get install kate
+
+
+# QGIS
 ## autorizar clave repositorio
-$ wget -O - http://qgis.org/downloads/qgis-2017.gpg.key | gpg --import
-$ gpg --fingerprint CAEB3DC3BDF7FB45
-$ gpg --export --armor CAEB3DC3BDF7FB45 | sudo apt-key add -
+wget -O - http://qgis.org/downloads/qgis-2017.gpg.key | gpg --import
+gpg --fingerprint CAEB3DC3BDF7FB45
+gpg --export --armor CAEB3DC3BDF7FB45 | sudo apt-key add -
 
 # QGIS Latest Release
-$ sudo sh -c 'echo "# QGIS Latest Release
-$ deb     http://qgis.org/ubuntugis $(xenial -sc) main
-$ deb-src http://qgis.org/ubuntugis $(xenial -sc) main" > /etc/apt/sources.list.d/qgis-latest.list'
 
-$ sudo apt update
-$ sudo apt -y upgrade
+sudo echo '# QGIS Latest Release' /n
+deb     https://qgis.org/ubuntu-ltr bionic main /n
+deb-src https://qgis.org/ubuntu-ltr bionic main > /etc/apt/sources.list.d/qgis-latest.list
+
+sudo apt-get update
+sudo apt -y upgrade
 
 # (2) QGIS y dependencias
-$ sudo apt install -y python-software-properties qgis python-qgis qgis-plugin-grass
 
-$ sudo apt-get install keepassx
+sudo apt install -y qgis qgis-plugin-grass
 
 ```

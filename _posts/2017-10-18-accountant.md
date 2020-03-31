@@ -3,7 +3,7 @@ layout: post
 title: Sumando segundos en metadatos de imágenes
 date: 2017-10-17
 author: Joan Cano
-categories: [bash]
+categories: [linux]
 ---
 Hace cierto tiempo, se me planteó la posibilidad de renombrar los metadatos de un grupo de imágenes
 las cuales habían sido tomadas sin la fecha y hora.
@@ -26,11 +26,13 @@ done
 ```
 
 Establecer la misma hora a todas las imágenes es sencillo, utilizando la librería que se aprecia arriba (exiftool),
-mediante la misma etiqueta -DateTimeOriginal.. Un ejemplo!
+mediante la misma etiqueta `-DateTimeOriginal`.. Un ejemplo!
+
 ```bash
 $ exiftool "-DateTimeOriginal+=Y:M:D h:m:s" filename.png
 $ exiftool "-DateTimeOriginal+=2017:10:8 5:30:7" filename.png
 ```
+
 Obviamente, hemos de instalar exiftools...
 
 Luego, se coloca el ejecutable **.sh** en la carpeta que contiene las imágenes donde se ejecuta

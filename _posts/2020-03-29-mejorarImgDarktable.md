@@ -46,5 +46,17 @@ Esta puede no ser la mejor idea para procesar fotogrametría, pero nos podría i
 
 
 
++ contraste, saturacion y brillo
++ shadows and highlights
++ Exposure
++ white balace
++ fill light
++ levels
++ color contrast
++ color correction
++ color zones
++ vibrance
++ sharpen: radio y amount
+
 
 

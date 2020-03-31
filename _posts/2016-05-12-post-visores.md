@@ -37,35 +37,33 @@ A continuación dejo algunos visores que hice como prueba para aprender a montar
 
 ### Visor 3. <a href='javascript: none' onclick='$("#abs_visor3").toggle()'>MBTiles</a> <br>
 
-   <div id="abs_visor3" style="text-align: justify; display: none" markdown="1">
-      El siguiente visor tiene como mapa base un MBTiles. 
-      Este tipo de formato permite almacenar un mosaicado de imágenes en un solo archivo, como una base de datos SQLite. 
-      Me gusta utilizar MBTiles, por que te permite trabajar sin conexión a internet y se mueve fino fino, además del poco espacio que ocupan las teselas.
+<div id="abs_visor3" style="text-align: justify; display: none" markdown="1">     
+ El siguiente visor tiene como mapa base un MBTiles. Este tipo de formato permite almacenar un mosaicado de imágenes en un solo archivo, como una base de datos SQLite. Me gusta utilizar MBTiles, por que te permite trabajar sin conexión a internet y se mueve fino fino, además del poco espacio que ocupan las teselas.
    <br>
-      [Visor 3. MBTiles](https://joancano.github.io/static/projects/web/visores/mbtiles/mbpolop.html) 
+   [Visor 3. MBTiles](https://joancano.github.io/static/projects/web/visores/mbtiles/index.html)
    </div>
    
 
 ### Visor 4. <a href='javascript: none' onclick='$("#abs_visor4").toggle()'>Windows Slider</a> <br>
 
-   <div id="abs_visor4" style="text-align: justify; display: none" markdown="1">
-      Puede surgir la necesidad de comparar distintas cartografías. Ello es muy sencillo en GIS de escritorio, 
-      pero cuando además quiere compartir con muchos usuarios este tipo de visores me parecen perfectos. 
-      En este caso se comparan servicios WMS multitemporal de mi pueblo.
+<div id="abs_visor4" style="text-align: justify; display: none" markdown="1">
+   Puede surgir la necesidad de comparar distintas cartografías. Ello es muy sencillo en GIS de escritorio, pero cuando además quiere compartir con muchos usuarios este tipo de visores me parecen perfectos. 
+   En este caso se comparan servicios WMS multitemporal de mi pueblo.
    <br>
       [Visor 4. Window Slider](https://joancano.github.io/static/projects/web/visores/ventanas/windows.html) 
    </div>
 
-### Visor 5. <a href='javascript: none' onclick='$("#abs_visor5").toggle()'>Geo Photos con Flickr</a> <br>
+### Visor 5. <a href='javascript: none' onclick='$("#abs_visor5").toggle()'>Raster tiles</a> <br>
 
 
    <div id="abs_visor5" style="text-align: justify; display: none" markdown="1">
-   Durante mi máster, tuvimos una salida de campo en la que identificamos diferentes tipos de cubiertas y vegetación. La captura de fotos en campo ayuda a recordar que tipos de cubiertas y especies son las que componen el paisaje, pero sobretodo la localización junto a las fotofrafías ayudaron mucho en la búsqueda de píxeles que puedan ser útiles para la clasificación supervisada.
-
-   La API de Flickr nos permite almacenar y geolocalizar las fotos e interactuar con ellas mediante Leaflet. Si ya tenemos las fotos geolocalizadas (tomadas con móvil o cámara) podemos geolocalizarlas directamente, y si no podemos geolocalizarlas con Flickr o un software específico; en mi caso utilizo [Digikam](https://www.digikam.org/)
+   Es un visor web simple, generado mediante la herramienta gdalAteselas de QGIS 3. Este es el enlace al post donde explico como realizarlo:
+   [post](https://joancano.github.io/gis/2019/05/18/tiles_qgis/)
    <br>
-      [Visor 5. Geo Photos con Flickr](https://joancano.github.io/static/projects/web/visores/photo/photos.html)
-   </div>
+  
+[Visor 5. Raster tiles](https://joancano.github.io/static/projects/web/visores/ruinas_Belchite/index.html)   
+  
+  </div>
 
 
 ### Visor 6. <a href='javascript: none' onclick='$("#abs_visor6").toggle()'>Time and checkbox</a> <br>
@@ -81,19 +79,9 @@ A continuación dejo algunos visores que hice como prueba para aprender a montar
    <div id="abs_visor7" style="text-align: justify; display: none" markdown="1">
    Se trata del mismo visor pero con un slider para mover según la fecha
    <br>
-   + [Time and Slider 1](https://joancano.github.io/static/projects/web/visores/visor_historia/versiones/v6/oneSlider.html)
-   + [Time and Slider 2](https://joancano.github.io/static/projects/web/visores/visor_historia/versiones/v5/index.html)
+   [Time and Slider 1](https://joancano.github.io/static/projects/web/visores/visor_historia/versiones/v6/oneSlider.html)
+    <br>
+   [Time and Slider 2](https://joancano.github.io/static/projects/web/visores/visor_historia/versiones/v5/index.html)
    </div>
 
-
-
-### Visor 8. <a href='javascript: none' onclick='$("#abs_visor8").toggle()'>Raster tiles</a> <br>
-
-   <div id="abs_visor8" style="text-align: justify; display: none" markdown="1">
-   Es un visor web simple, generado mediante la herramienta gdalAteselas de QGIS 3. Este es el enlace al post donde explico como realizarlo:
-   [https://joancano.github.io/gis/2019/05/18/tiles_qgis.html](https://joancano.github.io/gis/2019/05/18/tiles_qgis.html)
-   <br>
-
-   [Visor 8. Raster tiles](https://joancano.github.io/static/projects/web/visores/ruinas_Belchite/index.html)   
-   </div>
 

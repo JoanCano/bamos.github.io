@@ -422,7 +422,7 @@ title: "Library"
 + [PDAL](https://pdal.io/)
 + [CGAL](https://www.cgal.org/news.html) 
 
-#### GIS software
+#### GIS 
 + [Ilwis](http://www.ilwis.org)
 + [Orfeo toolbox](https://www.orfeo-toolbox.org/)
 + [Grass GIS](http://grass.osgeo.org/wiki/GRASS_and_Paraview)
@@ -431,6 +431,19 @@ title: "Library"
 + [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
 + [MDAL](https://github.com/lutraconsulting/MDAL/blob/master/README.md)
 
++ [GDAL](http://gdal.org/)
+
++ [geotiff.js](https://geotiffjs.github.io/)
+
++ [Rasterio](https://github.com/mapbox/rasterio)
+
++ [GeoTrellis](http://geotrellis.io/)
+
++ [GeoTools](http://geotools.org/)
+
++ [Orfeo ToolBox](http://www.orfeo-toolbox.org/)
+
++ [Radiant MLHub](https://www.mlhub.earth/)
 
 #### Image processing
 
@@ -462,6 +475,12 @@ title: "Library"
 + [Leaflet](https://leafletjs.com/)
 
 + [OpenLayers](https://openlayers.org/)
+
++ [Terracotta](https://github.com/DHI-GRAS/terracotta)
+
++ [RasterFrames](http://rasterframes.io/)
+
+
 
 #### Photogrammetry Software
 
@@ -506,6 +525,8 @@ title: "Library"
 + [glTF Github](https://github.com/KhronosGroup/glTF)
 
 + [Three glTF viewer](https://github.com/donmccurdy/three-gltf-viewer/releases)
+
++ [NodeMICMAC](https://github.com/dronemapper-io/NodeMICMAC)
 
 
 #### Geo + Photos
