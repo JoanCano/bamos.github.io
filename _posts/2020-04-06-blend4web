@@ -4,4 +4,83 @@ title:  "Blend4Web"
 date:   2020-04-06
 categories: [linux]
 ---
+Cómo crear y publicar un modelo 3D de forma totalmente libre y gratuita
+
+### Toma las fotografías
+
+Utiliza tu móvil o cámara de fotos y sigue alguno de estos tutoriales para saber cómo has de tomar las fotografías:
+
++ 
++
+
+### Procesa las imágenes
+
+El software libre que te recomiendo utilizar es [Meshroom](https://alicevision.org/#meshroom).
+
+Si no has procesado nunca con Meshroom, te recomiendo que visites [este post]() en el que explico paso a paso
+cómo procesar tus imágenes.
+
+### Prepara tu modelo
+
+Una vez hayas completado el procesamiento en Meshroom, tu malla final y textura se encontrará en la carpeta `Meshroom\project\MeshroomCache\Texturing\proyecto`. Copia los archivos con extensión `Obj, mtl y png` y llévatelos a otra carpeta para trabajar más cómodo y no machacar la malla y textura originales.
+
+
++ Abre el archivo *Obj* con [Blender](https://www.blender.org/) y elimina todos los polígonos que se han creado generando ruido (versión 2.79 de Blender).
++ Seguramente el modelo esté desplazado, por lo que lo traeremos para trabajar mejor al centro de trabajo desde `Object > Transform > Geometry To Origin`
++ Limpieza
++ Duplicamos el modelo con *Shift + D + Enter* y los renombramos como *HighPoly* y *LowPoly*
++ Aplicamos el modificador `Decimate` almodelo *LowPoly* para reducirlo a un % adecuado con respecto a nuestra cantidad total de polígonos. Cuando nos parezca correcto el % a reducir, aplicamos.
++ Exportamos ambos modelos, ya que vamos a crear texturas derivadas de las mallas en otro programa, el cual se trata de [handplane Baker](http://handplane3d.com/) o también podéis hacerlo en el conocido [Xnormal](https://xnormal.net/?lang=en) o con [Awesomebump](https://sourceforge.net/projects/awesomebump.mirror/). 
++ Antes de realizar el *Bake*, descargaremos [Instant Meshes](https://github.com/wjakob/instant-meshes) para el que quiera mejorar la malla reducida, reduciéndola todavía más y de una forma organizada, transformándola a Quads de manera automática :).
++ Lo siguiente será irnos a Handplane, e introducir las mallas HighPoly y LowPolyQuads (la que hemos generado en Instant Meshes).
+ + Parámetros que voy a utilizar en handplane del *Output* son:
+  + Padding: 16
+  + Width & Height: 2048
+  + Super Sample: 8x
+  + Format: png 8
+ + Maps:
+  + Tangent Space Normals
+  + Ambient Occlusion
++ Una vez tenemos nuestros mapas de textura volvemos a Blender, e instalamos el Addon [Blend4Web](https://www.blend4web.com/)
+
+
+
+### Instalación Blend4Web
+
++ Descargamos [Blend4Web CE 18.05.0](https://www.blend4web.com/en/downloads/)
++ Descomprime y añade en Blender la carpeta Blenderd desde User Preferences > File 
++ Desde la pestaña Scripts, abrimos la carpeta y buscamos el directorio que hemos descomprimido anteriormente que bería ser blend4web_ce y aceptamos
++ Cerramos y abrimos Blender, y nos dirigimos a Add-ons, desde donde activaremos el plugin Blend4web
+
+### Transferir información de HighPoly a LowPoly
+Nuestro nuevo modelo ahora mismo ha perdido el archivo .mtl, por lo que tenemos que volver a generarlo. Desde Blender:
++ Ponemos el modelo en modo edición y pulsamos U > Smart UV project
+
+### Aplicación de texturas en Blend4web
  
++ Escogemos el motor gráfico Blend4web
+Creamos 4 nodos de *Image Texture*, los cuales serán las 4 texturas que tenemos
++ 1 nodo como shader Principled BSDF
++ 
+
+Hay 2 vías. La rápida es:
++ Crear 1 material
+ + áñadir la textura, normales y AO. Para desactivar las normales y AO de la textura principal, desactivar diffuse y activar 
+ + geometry para las normales
+ + AO: blend Multiply
+
+Vía elaborada: Nodos
++ Seguiremos el mismo procedimiento, pero tenemos que quedarnos con los mismos nodos que en la siguiente imagen
+
+
+Luz
++ Daremos luz al ambiente desde la pestaña Wordl > Render sky > Blend sky 
++ Environment lighting
+
+Render settings
++ Bloom
++ Color correction
+
+
+
+[Ejemplo](https://joancano.github.io/static/projects/web/blend4web/pomab4w.html)
