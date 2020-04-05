@@ -33,7 +33,6 @@ title: "Library"
 
 + [Creating a 3D digital double in Blender & Meshroom](https://www.youtube.com/watch?v=bX_1q0N-EHE&feature=youtu.be)
 
-+ []
 
 
 ### GIS & Remote Sensing
@@ -383,7 +382,7 @@ title: "Library"
 
 + [Cloud-to-Mesh Distance](https://www.cloudcompare.org/doc/wiki/index.php?title=Cloud-to-Mesh_Distance)
 
-+ [Osigris] App móvil para gestión de cultivos}(http://www.osigris.com/)
++ [Osigris: App móvil para gestión de cultivos)(http://www.osigris.com/)
 
 + [Tabula. Extracción tablas desde PDF](https://tabula.technology/)
 
@@ -417,18 +416,29 @@ title: "Library"
 #### Point cloud & mesh 
 
 + [Cloud Compare](http://www.danielgm.net/cc/)
+
 + [Meshlab ](http://meshlab.sourceforge.net/)
+
 + [Scanalyze](http://graphics.stanford.edu/software/scanalyze/)
+
 + [PDAL](https://pdal.io/)
+
 + [CGAL](https://www.cgal.org/news.html) 
 
 #### GIS 
+
 + [Ilwis](http://www.ilwis.org)
+
 + [Orfeo toolbox](https://www.orfeo-toolbox.org/)
+
 + [Grass GIS](http://grass.osgeo.org/wiki/GRASS_and_Paraview)
+
 + [Herramientas y manuales de Sentinel Toolbox para SNAP](http://www.gisandbeers.com/manuales-de-sentinel-toolbox-para-snap/)
+
 + [GeoTrellis.geographic data processing engine for high performance applications](https://geotrellis.io/)
+
 + [shp2pgsql](https://www.bostongis.com/pgsql2shp_shp2pgsql_quickguide.bqg)
+
 + [MDAL](https://github.com/lutraconsulting/MDAL/blob/master/README.md)
 
 + [GDAL](http://gdal.org/)
@@ -544,10 +554,15 @@ title: "Library"
 #### Alternativas Autocad
 
 + [SelfCAD](https://www.selfcad.com/)
+
 + [FreeCAD](https://www.freecadweb.org/)
+
 + [TinkerCAD](https://www.tinkercad.com/)
+
 + [LibreCAD](https://librecad.org/)
+
 + [QCad](https://qcad.org/en/)
+
 
 #### Web Tools
 
