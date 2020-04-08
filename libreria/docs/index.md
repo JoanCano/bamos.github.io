@@ -89,7 +89,7 @@ title: "Library"
 
 + [Análisis geoespacial en los estudios urbanos](http://www.ciga.unam.mx/publicaciones/index.php/catalogo-completo/61-analisis-geoespacial-en-los-estudios-urbanos)
 
-+ [http://www.gisandbeers.com/identificar-proyecciones-desconocidas-qgis/](Cómo identificar proyecciones desconocidas en QGIS)
++ [Cómo identificar proyecciones desconocidas en QGIS](http://www.gisandbeers.com/identificar-proyecciones-desconocidas-qgis/)
 
 + [Digitalización avanzada en QGIS](https://www.cursosgis.com/digitalizacion-avanzada-en-qgis-complementos-de-digitalizacion-mas-completos/)
 
@@ -382,7 +382,7 @@ title: "Library"
 
 + [Cloud-to-Mesh Distance](https://www.cloudcompare.org/doc/wiki/index.php?title=Cloud-to-Mesh_Distance)
 
-+ [Osigris: App móvil para gestión de cultivos)(http://www.osigris.com/)
++ [Osigris: App móvil para gestión de cultivos](http://www.osigris.com/)
 
 + [Tabula. Extracción tablas desde PDF](https://tabula.technology/)
 
@@ -476,7 +476,7 @@ title: "Library"
 
 + [Data-Driven Documents](https://d3js.org/)
 
-+ [Inkscape]
++ [Inkscape]()
 
 #### Webmapping
 

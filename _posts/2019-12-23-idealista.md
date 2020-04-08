@@ -2,7 +2,7 @@
 layout: post
 title:  "Extracción y uso de datos de Idealista"
 date:   2019-12-23
-categories: [linux, OSM, programacion]
+categories: [linux, OSM, programacion,gis]
 ---
 
 La web de [Idealista](https://www.idealista.com/) ofrece un servicio gratuito para la descarga de sus datos.
