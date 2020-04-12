@@ -11,70 +11,83 @@ Script en **bash** para la instalación de los programas que suelo utilizar en L
 ```bash
 #!/bin/bash
 
+sudo apt update
+
+sudo apt install snapd -y
+
+sudo apt install wget
+
+sudo apt install chromium -y
+
+# Instalar vscodium
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add - 
+sudo echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list 
+
+sudo apt update && sudo apt install codium 
+
+sudo apt install inkscape -y
+
+sudo apt install shutter -y
+
+sudo snap install gimp  -y
+
+sudo apt install gimp-gmic -y
+
+sudo apt install gimp-ufraw -y
+
+sudo apt install gimp-plugin-registry -y
+
+sudo apt install synapse -y
+
+sudo apt install keepassx -y
+
+sudo snap install codium -y
+
+sudo snap install darktable -y
+
+sudo apt install git -y
+
+sudo apt install latte -y
+
+sudo apt install imagemagick -y
+
+sudo apt install obs-studio -y
+
+# instalar Insync
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+
+sudo echo 'deb http://apt.insync.io/debian buster non-free contrib' > /etc/apt/sources.list.d/insync.list 
 sudo apt-get update
+sudo apt-get install insync
 
-sudo apt-get install chromium-browser
+sudo apt install pdfsam -y
 
-sudo apt-get install inkscape
+sudo apt install telegram-desktop -y
 
-sudo apt-get install shutter
+sudo apt install kate -y
 
-sudo apt-get install gimp 
+sudo snap install blender --classic
 
-sudo apt-get install gimp-gmic
-
-sudo apt-get install gimp-ufraw
-
-sudo apt-get install gimp-plugin-registry
-
-sudo apt-get install synapse
-
-sudo apt-get install keepassx
-
-sudo apt-get install ruby-full
-
-sudo apt-get install gedit
-
-sudo apt-get install sublime-text
-
-sudo apt-get install darktable
-
-sudo apt-get install scribus
-
-sudo apt-get install git
-
-sudo apt-get install plank
-
-sudo apt-get install imagemagick
-
-sudo apt-get install obs-studio
-
-sudo apt-get install snap
-
-sudo apt-get install pdfsam-basic
-
-sudo apt-get install telegram-desktop
-
-sudo apt-get install kate
-
+sudo snap install cloudcompare
 
 # QGIS
 ## autorizar clave repositorio
-wget -O - http://qgis.org/downloads/qgis-2017.gpg.key | gpg --import
-gpg --fingerprint CAEB3DC3BDF7FB45
-gpg --export --armor CAEB3DC3BDF7FB45 | sudo apt-key add -
+wget -O - https://qgis.org/downloads/qgis-2019.gpg.key | gpg --import
+
+gpg --fingerprint 51F523511C7028C3
+
+gpg --export --armor 51F523511C7028C3 | sudo apt-key add -
 
 # QGIS Latest Release
 
-sudo echo '# QGIS Latest Release' /n
-deb     https://qgis.org/ubuntu-ltr bionic main /n
-deb-src https://qgis.org/ubuntu-ltr bionic main > /etc/apt/sources.list.d/qgis-latest.list
-
-sudo apt-get update
-sudo apt -y upgrade
+sudo echo '# QGIS Latest Release
+deb     https://qgis.org/debian-ltr buster main
+deb-src https://qgis.org/debian-ltr buster main ' > /etc/apt/sources.list.d/qgis-latest.list
 
 # (2) QGIS y dependencias
+sudo apt update
+sudo apt install -y qgis qgis-plugin-grass  -y
 
-sudo apt install -y qgis qgis-plugin-grass
-
+sudo apt update
+sudo apt -y upgrade 
 ```

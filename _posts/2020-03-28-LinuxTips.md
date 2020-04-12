@@ -73,10 +73,7 @@ $ ssh-keygen
 #  Copiar mi clave pública en el servidor
 $ ssh-copy-id -i ~/.ssh/mykey user@host
 ```
-```bash
-# Comprobar que la copia la clave pública ha funcionado
-$ ssh -i ~/.ssh/mykey user@host
-```
+
 ```bash
 # Si ha cambiado la key y da un error, incluir comando
 $ ssh-add
@@ -85,6 +82,15 @@ $ ssh-add
 # Correr comando de manera remota o mediante un script
 $ ssh user@server *my_command*
 $ ssh user@server 'bash -s' < local_script.sh
+```
+
+# Conocer los dispositivos conectados a la red WiFi
+```bash
+# Detect computers with nmap
+$ apt install nmap
+$ nmap -sn 192.168.1.0/24
+$ nmap -sn -oG Name.txt 192.168.1.1-255
+$ ping  -b 192.168.1.255
 ```
 
 **Manejar las claves SSH gráficamente con Seahorse**

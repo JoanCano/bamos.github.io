@@ -29,9 +29,6 @@ transparencia de la capa/selección. Podemos fácilmente, sin ser muy entendido 
 + **Enfocar.** Puede mejorar significativamente una imagen algo borrosa. Opción de menú filtros > Realzar [Enhance] > Enfocar [Sharpen]. Aumentar la agudeza hasta ver un buen resultado en la previsualización.
 
 ## Reparar una determinada área seleccionada de la imagen (Oscurecer/iluminar, colorear, curvas, etc.)
-
 Podemos usar cualquiera de las herramientas anteriores (niveles, marcado a fuego, brillo/contraste, …) sobre un área seleccionada, en lugar de aplicar a toda la imagen. Para ello, primero seleccionar dicha área con cualquier herramienta de selección: rectángulos, elíptica, selección libre, … Después aplicar la opción de corrección deseada.
 
 Fuente: [Manual de edición de imágenes con GIMP](https://www.qe2computing.com/manual-edicion-imagenes-gimp/)
-
-

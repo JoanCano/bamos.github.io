@@ -259,4 +259,15 @@ Linux, Windows
   </td>
 </tr>
 
+<tr>
+  <td class='col-md-6'><strong>Edición en OSM con RapiD</strong></td>
+  <td markdown="1">
+  Joan Cano - <a href='https://drive.google.com/open?id=1XdRGLMB1Q4EKzASbraOGhMSeWWqsy9qLVd7dgcL0f_8 ' target='_blank'>Presentación</a>
+  </td>
+</tr>
+
 </table>
+
+
+
+

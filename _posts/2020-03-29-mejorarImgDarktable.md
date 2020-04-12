@@ -33,30 +33,22 @@ El mejor punto de partida para la reducción de ruido es la reducción de ruido 
 ### Eliminación de manchas (sport removal)
 Esta puede no ser la mejor idea para procesar fotogrametría, pero nos podría interesar en algún caso que dejemos un set de imaǵenes para la reconstrucción de la geometría y otro para la texturización.
 
+[Mis Módulos](https://drive.google.com/file/d/1B3FvTM1ihQxG8EP9msCF2Pfj2NEIOJxt/view?usp=drivesdk)
 
-### Añadir detalle (sombras y luces)
-
-- Módulo Luces y Sombras: ajustar para decuperar detalles
-- Módulo Contraste, Saturación y Brillo: normalmente añado contraste y saturación
-- Módulo Reconstrucción de color: es capaz de recuperar el color de las luces sobrexpuestas
-- Módulo Demosaico: controla como la interpolación cromática es procesada
-- Reconstrucción de luces: trata de reconstruir la información de color que está usualmente cortada debido a información incompleta en alguno de los canales
-- Módulo Enfoque: pues para añadir nitidez :)
-
-
-
-
-+ contraste, saturacion y brillo
-+ shadows and highlights
-+ Exposure
-+ white balace
-+ fill light
-+ levels
-+ color contrast
-+ color correction
-+ color zones
-+ vibrance
-+ sharpen: radio y amount
-
-
-
+* Velvia
+* Contraste de color
+* Enfoque
+* Corrección de color
+* Luz de relleno
+* Niveles
+* Contraste brillo saturación
+* Zonas de color
+* Sombras y luces
+* reconstrucción de color
+* Ajustes de color
+* Ajustes básicos
+* Exposición
+* Reducción del ruido (perdilado)
+* Píxeles calientes
+* Reconstrucción de luces
+* [Balance de blancos](https://drive.google.com/file/d/1aKQz8-bAxTS6xE-Q6l4NpM8DHPfNX6VC/view?usp=drivesdk)
