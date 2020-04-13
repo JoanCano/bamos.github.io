@@ -53,6 +53,8 @@ sudo apt install imagemagick -y
 
 sudo apt install obs-studio -y
 
+sudo snap install gitkraken
+
 # instalar Insync
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
 

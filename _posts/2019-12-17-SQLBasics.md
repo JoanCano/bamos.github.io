@@ -636,3 +636,5 @@ Por lo tanto los pasos que seguiríamos son los siguientes:
 + https://trac.osgeo.org/postgis/wiki/UsersWikiPostGIS24UbuntuPGSQL10Apt
 + https://www.digitalocean.com/community/tutorials/como-instalar-y-utilizar-postgresql-en-ubuntu-16-04-es
 
++ https://live.osgeo.org/en/quickstart/postgis_quickstart.html
++ http://www.bostongis.com/PrinterFriendly.aspx?content_name=postgis_tut02 
