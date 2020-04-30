@@ -135,7 +135,7 @@ RSAAuthentication yes
 PubkeyAuthentication yes
 ```
 
-Una vez realizado el trasbase de claves se puede deshabilitar el acceso por medio de contraseña editando el archivo `/etc/ssh/sshd_confi`g con los siguientes valores:
+Una vez realizado el trasbase de claves se puede deshabilitar el acceso por medio de contraseña editando el archivo `/etc/ssh/sshd_config` con los siguientes valores:
 
 ```bash
 PasswordAuthentication no

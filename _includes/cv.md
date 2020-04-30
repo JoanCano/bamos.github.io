@@ -266,6 +266,13 @@ Linux, Windows
   </td>
 </tr>
 
+<tr>
+  <td class='col-md-6'><strong>Presentación Visualización Online</strong></td>
+  <td markdown="1">
+  Joan Cano - <a href='/static/projects/presentacions/presentacio.html' target='_blank'>Presentación</a>
+  </td>
+</tr>
+
 </table>
 
 

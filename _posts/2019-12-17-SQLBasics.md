@@ -33,6 +33,8 @@ $ shp2pgsql-gui
 # pgRouting 2.6 package
 $ sudo apt install postgresql-10-pgrouting
 ```
+### Instalación de PgAdmin4 en Linux
+https://remot-technologies.com/como-instalar-pgadmin-4-en-ubuntu-18-04/?utm_campaign=nosolosig&utm_medium=email&utm_source=mailing381
 
 ### Trabajando en PostgreSQL desde la terminal
 

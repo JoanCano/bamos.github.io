@@ -16,14 +16,14 @@ Mi duda era si eliminando el fondo de imágenes como la [siguiente][2] podría:
 De manera que lo primero que hice es recabar información acerca de los programas capaces de eliminar el fondo de las imágenes. 
 
 |Software   |Tipo   |Enlace |
-|---        |---    |---    |
-| Clipping Magic        |Comercial     |https://es.clippingmagic.com/|
-|Photoshop              |Comercial     |https://helpx.adobe.com/photoshop/how-to/remove-and-replace-background.html|
-|RemoveBG               |Comercial     |https://www.remove.bg/|
-|PhotoScissors          |Comercial     |https://photoscissors.com/|
-|Movavi PhotoEditor     |Comercial     |https://www.movavi.com/support/how-to/how-to-remove-background-from-image.html|
-|Gimp                   |Libre         |https://www.gimp.org/|
-|G'MIC                  |Libre         |http://gmic.eu/|
+|-----------|-------|-------|
+| Clipping Magic        |Comercial     |[Link][6]|
+|Photoshop              |Comercial     |[Link][7]|
+|RemoveBG               |Comercial     |[Link][8]|
+|PhotoScissors          |Comercial     |[Link][9]|
+|Movavi PhotoEditor     |Comercial     |[Link][10]|
+|Gimp                   |Libre         |[Link][11]|
+|G'MIC                  |Libre         |[Link][12]|
 
 En segundo lugar, había que saber cuáles eran capaces de "automatizar" el proceso, pues no quiero eliminar el fondo de una sola imagen, sinó de cientos. Cuando digo automatizar me refiero a no tener que estar haciendo máscaras, comprobando que se ha seleccionado todo el objeto o color, etc.
 
@@ -46,3 +46,10 @@ Si nos vamos a software libre me quedaría con G'MIC, el cual corre dentro de pr
 [3]: https://www.youtube.com/watch?v=qZXhYowJLfQ
 [4]: https://www.youtube.com/watch?v=1mRuGfOFQBA
 [5]: https://www.youtube.com/watch?v=746xvyrFzqI
+[6]: https://es.clippingmagic.com/
+[7]: https://helpx.adobe.com/photoshop/how-to/remove-and-replace-background.html
+[8]: https://www.remove.bg/
+[9]: https://photoscissors.com
+[10]: https://www.movavi.com/support/how-to/how-to-remove-background-from-image.html
+[11]: https://www.gimp.org/
+[12]: http://gmic.eu/
