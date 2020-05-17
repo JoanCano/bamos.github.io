@@ -621,6 +621,7 @@ Imaginemos que tenemos una tabla (coches) que nos han proporcionado en formato C
 + id | date | name | estado | latitud | longitud
 
 Por lo tanto los pasos que seguiríamos son los siguientes:
+
 ```SQL
 # Agregar geometría a los datos
  + SELECT AddGeometryColumn('coches', 'geom', '4326', 'MULTIPOINT', 2)
@@ -630,8 +631,6 @@ Por lo tanto los pasos que seguiríamos son los siguientes:
  + UPDATE table SET latitud=ST_Y(ST_GeometryN(geom, 1)), longitud=ST_X(ST_GeometryN(geom, 1))
  + INSERT INTO table (id, lastdate, recentstat, geom) SELECT id+200, lastdate, recentstat, geom
 ```
-
-### 2. [Idealista](https://joancano.github.io/linux/osm/2019/12/23/idealista/)
 
 **Fuentes y enlaces:**
 + https://medium.com/@tjukanov/animated-routes-with-qgis-9377c1f16021

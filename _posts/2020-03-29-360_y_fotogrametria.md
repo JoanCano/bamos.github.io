@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "360_y_fotogrametria"
+title:  "360 y fotogrametria"
 date:   2020-01-09
 categories: [360,fotogrametria, blender]
 ---
