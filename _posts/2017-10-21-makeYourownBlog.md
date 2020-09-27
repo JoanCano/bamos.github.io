@@ -118,3 +118,18 @@ En caso de que no nos permita visualizarlo, es por los permisos del navegador. T
 
 
 Ya tenemos nuestro blog corriendo en [local](http://localhost:4000/joancano.github.io/)!. Ahora solo tendremos que subirlo a Github para poder tener nuestro blog en la web.
+
+### Instalación y uso de plugins
+https://github.com/planetjekyll/awesome-jekyll-plugins
+
+
+### Programando Liquid
+
+Lo primero que podemos hacer es descargarnos Visual Studio Code y luego las extensiones relacionadas con Jekyll
+
+https://github.com/jekyll/jekyll-admin
+
+https://github.com/planetjekyll/awesome-jekyll-plugins
+
+
+
