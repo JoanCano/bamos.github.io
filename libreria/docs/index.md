@@ -696,3 +696,8 @@ title: "Library"
 + [Puertos USB y Python](https://ronaldl337.wordpress.com/2019/10/16/programando-en-python-tutorial-2/amp/?__twitter_impression=true)
 
 + [PyQGIS in a Day Learn the QGIS Python API from the ground up](https://courses.spatialthoughts.com/pyqgis-in-a-day.html)
+
+
+## Web
+
++ [Posicionamiento web Google](https://support.google.com/webmasters/answer/7451184?hl=es) 
