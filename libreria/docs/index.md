@@ -1,8 +1,3 @@
----
-layout: singlePage
-title: "Library"
----
-
 ### 3D Design + VR
 
 + [Blender Basics: Classroom Tutorial Book](https://archive.org/details/2017BlenderBasics/page/n21)
@@ -32,6 +27,8 @@ title: "Library"
 + [Baking Ambient Occlusion texture map with xNormal](https://www.agisoft.com/index.php?id=43)
 
 + [Creating a 3D digital double in Blender & Meshroom](https://www.youtube.com/watch?v=bX_1q0N-EHE&feature=youtu.be)
++ [Blender-Photogrammetry-Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)
++ [Shaded relief maps in blender](https://github.com/joewdavies/geoblender)
 
 
 
@@ -127,10 +124,16 @@ title: "Library"
 + [dzetsaka : classification tool](https://www.karasiak.net/dzetsaka-how-to-make-your-first-classification-in-qgis/)
 
 + [Tutoriales GIS y Web Mapping](http://geopois.com/)
++ [ añadir datos GIS desde Google Drive en QGIS](https://mappinggis.com/2021/04/como-anadir-datos-gis-desde-google-drive-en-qgis/)
++ [A Gentle Introduction to GDAL, Part 2: Map Projections & gdalwarp](https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-2-map-projections-gdalwarp-e05173bd710a)
++ [A Gentle Introduction to GDAL Part 4: Working with Satellite Data](https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-4-working-with-satellite-data-d3835b5e2971)
 
 ### Databases
 
 + [PostgreSQL Interactive Learning Portal](https://learn.crunchydata.com/postgis)
++ [40+ Spatial SQL Resources and Guides](https://forrest.nyc/40-spatial-sql-resources-and-guides/)
++ [Introduction to PostGIS](https://postgis.net/workshops/postgis-intro/)
++ [PostGIS Workshop](https://docs.google.com/presentation/d/1qYXdeCIymLl32uoAHvAPrp1r-hK-_4Z8InG7sHEo6vc/edit#slide=id.gd85280829a_0_61)
 
 ### Edición de imágenes
 
@@ -175,6 +178,9 @@ title: "Library"
 + [AppImage applications for Linux without installation](https://appimage.github.io/)
 
 + [https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux](https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux)
++ [https://seduccionlinux.wordpress.com/](https://seduccionlinux.wordpress.com/)
++ [Saving Power on a Linux Laptop](https://www.youtube.com/watch?v=B1iRxoyT4EA)
+
 
 
 
@@ -411,6 +417,12 @@ title: "Library"
 + [ David Fletcher Art](http://www.davidfletcherart.co.uk/index.html)
 
 + [Data Carpentry](https://datacarpentry.org/lessons/)
++ [https://fxi.gitlab.io/minanimap/](https://fxi.gitlab.io/minanimap/)
++ [https://msevilla00.gitlab.io/teaching/](https://msevilla00.gitlab.io/teaching/)
++ [Open-Source Web-GIS Development Roadmap](https://www.gislounge.com/open-source-web-gis-development-roadmap/)
++ [PrograMapa](https://programapa.wordpress.com/)
++ [DATA SCIENCE TUTORIALS](https://www.learndatasci.com/tutorials/)
+
 
 ### Software
 
@@ -444,6 +456,7 @@ title: "Library"
 + [MDAL](https://github.com/lutraconsulting/MDAL/blob/master/README.md)
 
 + [GDAL](http://gdal.org/)
++ [https://jakobmiksch.eu/post/gdal_ogr/](https://jakobmiksch.eu/post/gdal_ogr/)
 
 + [geotiff.js](https://geotiffjs.github.io/)
 
@@ -491,6 +504,8 @@ title: "Library"
 + [Terracotta](https://github.com/DHI-GRAS/terracotta)
 
 + [RasterFrames](http://rasterframes.io/)
++ [Leaflet Maps with Google Sheets](https://github.com/HandsOnDataViz/leaflet-maps-with-google-sheets)
++ [crear mapas web sincronizados](https://mappinggis.com/2018/11/como-crear-mapas-web-sincronizados/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 
 
 
@@ -589,6 +604,8 @@ title: "Library"
 + [sculptgl](https://stephaneginier.com/sculptgl/)
 
 + [Geocodificador online](https://geocode.localfocus.nl/)
++ [https://www.unfolded.ai/](https://www.unfolded.ai/)
++ [https://maplibre.org/](https://maplibre.org/)
 
 
 #### Stiching
@@ -696,8 +713,15 @@ title: "Library"
 + [Puertos USB y Python](https://ronaldl337.wordpress.com/2019/10/16/programando-en-python-tutorial-2/amp/?__twitter_impression=true)
 
 + [PyQGIS in a Day Learn the QGIS Python API from the ground up](https://courses.spatialthoughts.com/pyqgis-in-a-day.html)
++ [SDS 375 Schedule Spring 2021](https://wilkelab.org/SDS375/schedule.html)
 
 
 ## Web
 
 + [Posicionamiento web Google](https://support.google.com/webmasters/answer/7451184?hl=es) 
+
+
+## Slides
+
++ [https://marp.app](https://marp.app)
++ [https://asciiflow.com/](https://asciiflow.com/)
