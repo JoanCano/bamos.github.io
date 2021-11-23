@@ -1,99 +1,182 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
 %
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass{my_cv}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
 
-% adjust the page margins
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
-% personal data
-%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-%photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
-%\quote{Seeking a full time position in software development }
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+\usepackage{multicol} % Used for itemizing items in multiple columns
 
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Joan} % Your first name
+\familyname{Cano Aladid} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{C. Catorce Septiembre, 21, 50720 Cartuja Baja, Zaragoza}
+\mobile{(+34) 686500085}
+\email{joancalad@gmail.com}
+
+%----------------------------------------------------------------------------------------
+
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}
-%-----       resume       ---------------------------------------------------------
-\makecvtitle
-\section{Formación \faBook}
 
-\cventry{2016--2017}{ Sistemas de Información Geográfica y Teledetección}{Máster en TIG}{Universidad de Zaragoza}{}{}
+\makecvtitle % Print the CV title
 
-\cventry{2012--2016}{ y Ordenación del Territorio}{ Grado en Geografía}{Universidad de Alicante}{}{}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
 
+\section{Formación}
 
-\section{Experiencia laboral \faSuitcase}
-\cventry{Julio 1017 - Actual}{Técnico en tecnologías geospaciales}{3DSCANNER}{Zaragoza}{}{ Desarrollo de trabajos de topografía, escaneado y fotogrametría en el ámbito del Patrimonio, Medio Ambiente, Ingeniería e Industria. Soporte técnico de Leica en las soluciones HDS. Soporte técnico oficial de drones de SenseFly, Parrot y Flyability.}
-
-\cventry{Junio 2019}{Instructor}{Fundación laboral de la construcción}{Zaragoza}{}{Fotografía aérea y fotogrametría para construcción y obra civil con el uso de drones}
-
-\cventry{Febrero 2016 - Mayo 2016}{Prácticas de empresa en el Ayuntamiento de Sella y Laboratorio de Geomática}{Universidad de Alicante}{Alicante}{}{Diseño de bases de datos para la gestión del cementerio municipal. Infracciones urbanísticas. Cartografía municipal}
+\cventry{2016 - 2017}{Máster en TIG}{Sistemas de Información Geográfica y Teledetección}{Zaragoza}{}{}
+\cventry{2012 - 2016}{Grado en Geografía y Ordenación del Territorio}{}{Universidad de Alicante}{}{}
 
 
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
 
-\section{Formación: Cursos y seminarios  \faBook}
-\cvitemwithcomment{Bases de datos espaciales}{PostGis}{2015}
-\cvitemwithcomment{Microviñas}{una herramienta para el ecosistema empresarial rural}{2017}
-\cvitemwithcomment{Curso avanzado de Piloto de Drones por el Real Aeroclub de Zaragoza}{60 horas}{2017}
-\cvitemwithcomment{Curso Teórico y Práctico de aeronave pilotada por control remoto de clase avión}{eBee}{2017}
-\cvitemwithcomment{Curso de manejo de Pix4D}{10 horas}{2017}
-\cvitemwithcomment{SenseFly Trainer Certificate en eBeeX}{}{2017}
-\cvitemwithcomment{Jornada sobre el uso de drones y escáner 3D para La Junta de Castilla y León}{}{2018}
-\cvitemwithcomment{Jornada sobre el uso de drones y escáner 3D aplicada a PRL para Asepeyo}{}{2018}
-\cvitemwithcomment{Curso de Blender}{Postprocesado fotogramétrico y reconstrucción virtual. 60h}{2019}
-\cvitemwithcomment{Comunicación oral en ISMAR10: Monitorización de los recursos hidrológicos nivales}
-{}{}
-\cvitemwithcomment{}{el glaciar de Monte Perdido (Huesca)}{2019}
-\cvitemwithcomment{Curso de instructor de RPAS, por EPRYD}{Escuela ULM número de registro 2018004169. 15 horas}{2019}
-\cvitemwithcomment{Formación Leica escáner láser 3D}{20h}{2019}
+\section{Experiencia laboral}
+\cventry{07/2017 - Actualidad}{Técnico en geomática}{3DSCANNER}{Zaragoza}{}{ Desarrollo de trabajos de topografía, escaneado y fotogrametría en el ámbito del Patrimonio, Medio Ambiente, Ingeniería e Industria}
+\cventry{07/2017 - Actualidad}{Soporte técnico}{Tecnitop}{Zaragoza}{}{Soporte técnico de Leica en las soluciones HDS. Soporte técnico oficial de drones de SenseFly, Parrot y Flyability}
+\cventry{06/2019}{Instructor}{Fundación laboral de la construcción}{Zaragoza}{}{Fotografía aérea y fotogrametría para construcción y obra civil con el uso de drones}
+
+\cventry{02/2016 - 04/2016}{Prácticas de empresa en el Ayuntamiento de Sella y Laboratorio de Geomática}{Universidad de Alicante}{Alicante}{}{Diseño de bases de datos para la gestión del cementerio municipal. Infracciones urbanísticas. Cartografía municipal}
+
+%----------------------------------------------------------------------------------------
+%   HONOURS AND AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Premios y Becas}
+\cventry{2018}{Mención de excelencia en el Trabajo de Fin de Máster}{Calibración de sensores multiespectrales y su aplicación en UAV. Caso de estudio: Análisis de la cámara Sequoia}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	COURSEWORK SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades}
+\vspace{-5mm}
+\cventry{}{}{}{}{}{
+\begin{multicols}{2}
+\begin{itemize}
+	\item Sistemas de Información Geográfica
+    \item Teledetección
+    \item Piloto de drones
+    \item Webmapping
+    \item Fotogrametría
+    \item Láser escáner
+    \item Edición 3D
+    \item Cartografía
+    \item Linux, Windows
+    \item Git
+\end{itemize}
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------
+%   LANGUAGE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitem{English}{\textbf{nivel B1-PET}}
+\cvitem{Castellano}{\textbf{alto}}
+\cvitem{Valenciano}{\textbf{alto (lengua materna)}}
+
+\newpage
+%----------------------------------------------------------------------------------------
+
+\section{Cursos y seminarios}
+\cventry{2015}{Bases de datos espaciales}{PostGis}{Recibido}{}{}
+\cventry{2017}{Microviñas}{una herramienta para el ecosistema empresarial rural}{Recibido}{}{}
+\cventry{2017}{Curso avanzado de Piloto de Drones por el Real Aeroclub de Zaragoza}{60 horas}{Recibido}{}{}
+\cventry{2017}{Curso Teórico y Práctico de aeronave pilotada por control remoto de clase avión}{eBee}{Recibido}{}{}
+\cventry{2017}{Curso de manejo de Pix4D}{10 horas}{Recibido}{}{}
+\cventry{2017}{SenseFly Trainer Certificate en eBeeX}{Recibido}{}{}{}
+\cventry{2018}{Jornada sobre el uso de drones y escáner 3D para La Junta de Castilla y León}{Impartido}{}{}{}
+\cventry{2018}{Jornada sobre el uso de drones y escáner 3D aplicada a PRL para Asepeyo}{Impartido}{}{}{}
+\cventry{2019}{Curso de Blender}{Postprocesado fotogramétrico y reconstrucción virtual. 60h}{Recibido}{}{}
+\cventry{2019}{Comunicación oral en ISMAR10: Monitorización de los recursos hidrológicos nivales}{el glaciar de Monte Perdido (Huesca)}{Impartido}{}{}
+\cventry{2019}{Curso de instructor de RPAS, por EPRYD}{Escuela ULM número de registro 2018004169. 15 horas}{Recibido}{}{}
+\cventry{2019}{Formación Leica escáner láser 3D}{20h}{Recibido}{}{}
 
 
-\section{Formación: Premios y Becas \faBook}
-\cvitemwithcomment{Mención de excelencia en el Trabajo de Fin de Máster}{}{}
-\cvitemwithcomment{}{Calibración de sensores multiespectrales y su aplicación en UAV. Caso de estudio: Análisis de la cámara Sequoia}{}
-\cvitemwithcomment{}{}{2018}
+\section{Voluntariado}
 
+\cventry{2016}{Voluntariado en Cobán (Guatemala)}{Proyecto de cartografía colaborativa basado en OpenStreetMap}{Universidad de Alicante}{}{}
+\cventry{2018}{Miembro del grupo DroneMapZ}{proyecto ciudadano en las Convocatorias Cesar de Etopia}{Zaragoza}{}{}
+\cventry{2017 - actual}{Mapeado Colaborativo}{grupo residente en Zaragoza Activa}{Zaragoza}{}{}{}
 
-\section{Formación: Voluntariado \faBook}
-\cvitemwithcomment{Voluntariado en Cobán (Guatemala)}{}{}
-\cvitemwithcomment{}{proyecto de cartografía colaborativa basado en OpenStreetMap a través de la Universidad de Alicante}{2016}
-\cvitemwithcomment{Miembro del grupo DroneMapZ}{proyecto ciudadano en las Convocatorias Cesar de Etopia (Zaragoza)
-}{2018}
-\cvitemwithcomment{Miembro activo de Mapeado Colaborativo}{grupo residentes en Zaragoza Activa (Zaragoza)}{2017 - actual}
+\newpage
 
-\section{Formación: Idiomas \faBook}
-\cvitemwithcomment{Inglés}{nivel B1-PET}{}
-\cvitemwithcomment{Castellano}{Alto}{}
-\cvitemwithcomment{Catalán}{Alto}{Lengua materna}
+\section{Principales trabajos realizados}
 
-\section{Principales trabajos realizados \faCogs}
-\cventry{2020}{Realizando trabajos de enlace con la geodesia espacial,  escaneado láser 3D y fotogrametría}{Documentación geométrica y fotogramétrica de un torreón en Alcañiz}{}{}{}
+\cventry{2021}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría terrestre}{Documentación geométrica y fotogramétrica de La Grotte du Gargas}{Francia}{}{}
 
-\cventry{2019}{Levantamiento topográfico y delineación 3D}{Municipios de Artiès, Baquèira, Salardú y tresdós en el Vall d’Aran}{}{}{}
+\cventry{2021}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría aérea}{Documentación geométrica y fotogramétrica de la presa de Santolea}{Teruel}{}{}
 
-\cventry{2019}{Realizando trabajos de enlace con la geodesia espacial,  escaneado láser 3D y drones}{Documentación geométrica del Dolmen de Guadalperal y Agustóbriga}{}{}{}
+\cventry{2021}{Reconstrucción tridimensional y fotorealística de antiguos hornos de cerámica para documentación arqueológica}{Fotogrametría y escaneado láser}{Samarkanda}{Uzbekistán}{}
+
+\cventry{2021}{Realizando trabajos de digitalización 3D y toma de datos multi e hiperespectral de un pavés}{Documentación geométrica, fotogramétrica y espectral}{Tortosa}{}{}
+
+\cventry{2021}{Realizando trabajos de digitalización 3D de varias estatuas}{Documentación geométrica y fotogramétrica de estatuas}{Madrid}{}{}
+
+\cventry{2021}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría terrestre}{Documentación geométrica y fotogramétrica de la cueva de la Fuente del Trucho}{Huesca}{}{}
+
+\cventry{2020}{Realizando trabajos de programación web}{Desarrollo en html5 para la visualización y estudio de grabados rupestres}{La Grotte du Roucadour}{}{}
+
+\cventry{2020}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría terrestre}{Documentación geométrica y fotogramétrica de la Cueva de Maltravieso}{Cáceres}{}{}
+
+\cventry{2020}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D}{Documentación geométrica de la cueva Judge's Cave}{}{Gibraltar}{}
+
+\cventry{2020}{Realizando trabajos de escaneado láser 3D y fotogrametría}{Documentación geométrica y fotogramétrica de la casa de Goya}{Quinta del sordo}{Madrid}{}
+
+\cventry{2020}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría}{Documentación geométrica y fotogramétrica de un hallazgo arqueológico en un abrigo}{Barranco Gomez}{}{}
+
+\cventry{2020}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría}{Documentación geométrica y fotogramétrica de un torreón en Alcañiz}{}{}{}
+
+\cventry{2019}{Levantamiento topográfico y delineación 3D}{Municipios de Artiès, Baquèira, Salardú y tresdós}{Vall d’Aran}{}{}
+
+\cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y drones}{Documentación geométrica y fotogramétrica del Dolmen de Guadalperal y Agustóbriga}{}{}{}
 
 \cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D, fotogrametría aérea y terrestre}{Documentación geométrica, espacial y multiespectral del Castillo de Santed}{}{}{}
 
-\cventry{2019}{Realizado con eBee RTK en Moneva y Moyuela}{Levantamiento topográfico para subestación eléctrica y nuevas vías de transporte}{}{}{}
+\cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, escaneado láser 3D y fotogrametría terrestre}{Documentación geométrica y espacial de la Presa Romana de Muel}{}{}{}
+
+\cventry{2019}{Vuelo fotogramétrico con dron}{Levantamiento topográfico para subestación eléctrica y nuevas vías de transporte}{Moneva y Moyuela}{}{}
 
 \cventry{2019}{Análisis de voladuras en minas subterráneas}{Inspección con dron Elios 2}{}{}{}
 
@@ -101,13 +184,15 @@
 
 \cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, poligonal y escaneado láser 3D}{Documentación geométrica de la Fuente del Berro (Madrid)}{}{}{}
 
-\cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, poligonal y escaneado láser 3D}{Documentación geométrica de Necrópolis Musulmana en Tudela (Navarra)}{}{}{}
+\cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, poligonal y escaneado láser 3D}{Documentación geométrica de Necrópolis Musulmana en }{Tudela, (Navarra)}{}{}
 
 \cventry{2019}{Realizando trabajos de enlace con la geodesia espacial, poligonal y escaneado láser 3D}{Documentación geométrica de las instalaciones del FIDAMC (Madrid)}{}{}{}
 
-\cventry{2018}{Realizando trabajos de nivelación geométrica, análisis de estructuras y asentamiento de edificios}{Auscultación del Colector de aguas fecales de la Calle Santa Coloma de Barcelona}{}{}{}
+\cventry{2018}{Realizando trabajos de nivelación geométrica, análisis de estructuras y asentamiento de edificios}{Auscultación del Colector de aguas fecales}{Santa Coloma de Barcelona}{}{}
 
-\cventry{2018}{Reconstrucción tridimensional de una manyatta maasai para documental mediante realidad virtual}{Fotogrametría y escaneado láser de un escenario de la serie “La Peste”}{}{}{}
+\cventry{2018}{Reconstrucción tridimensional y fotorealística de escenarios de la serie “La Peste” para VR}{Fotogrametría y escaneado láser}{Sevilla}{}{}
+
+\cventry{2018}{Reconstrucción tridimensional y fotorealística de una manyatta maasai para documental de realidad virtual}{Fotogrametría y escaneado láser}{}{}{}
 
 \cventry{2018}{Realizando trabajos de enlace con la geodesia espacial, poligonal y escaneado láser 3D}{Documentación geométrica de Viajes de agua de Amaniel (Madrid)}{}{}{}
 
@@ -117,19 +202,4 @@
 
 
 
-
-\section{Habilidades \faBullseye}
-%\cvlistdoubleitem{Ruby/Rails}{Linux}
-\cvlistdoubleitem{Sistemas de Información Geográfica}{Teledetección}
-\cvlistdoubleitem{Piloto de drones}{Webmapping}
-\cvlistdoubleitem{Fotogrametría}{Láser Escáner}
-\cvlistdoubleitem{Edición 3D}{Cartografía}
-\cvlistdoubleitem{Linux, Windows}{Git}
-
-% \cvlistdoubleitem{\LaTeX}{Swift (iOS Development)}
-
-%\section{Familiar With \faPlusSign}
-%\cvlistdoubleitem{Adobe Illustrator}{CSS/SASS}
-
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
