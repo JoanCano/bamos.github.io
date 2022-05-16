@@ -30,6 +30,12 @@
 + [Blender-Photogrammetry-Importer](https://github.com/SBCV/Blender-Addon-Photogrammetry-Importer)
 + [Shaded relief maps in blender](https://github.com/joewdavies/geoblender)
 
++ [Optimizing RealityCapture 3D models for Game Engines](https://youtu.be/lCpRtPPEK-Q)
+
++ [Delivering 3D Scenes to the Web](https://rd.nytimes.com/projects/delivering-3d-scenes-to-the-web)
+
++ [How To Setup Blender 3.0 VR](https://www.youtube.com/watch?v=ZrXAEsYiIyE)
+
 
 
 ### GIS & Remote Sensing
@@ -128,6 +134,11 @@
 + [A Gentle Introduction to GDAL, Part 2: Map Projections & gdalwarp](https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-2-map-projections-gdalwarp-e05173bd710a)
 + [A Gentle Introduction to GDAL Part 4: Working with Satellite Data](https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-4-working-with-satellite-data-d3835b5e2971)
 
++ [Leaflet from basic to advance](https://www.youtube.com/playlist?list=PLyWyQBSWLw1NH1wsA0wkSMTlQ45P0AqCj
+)
+
++ [Automating GIS-processes](https://autogis-site.readthedocs.io/en/latest/)
+
 ### Databases
 
 + [PostgreSQL Interactive Learning Portal](https://learn.crunchydata.com/postgis)
@@ -180,7 +191,6 @@
 + [https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux](https://uniwebsidad.com/libros/python/capitulo-1/introduccion-al-sistema-operativo-gnu-linux)
 + [https://seduccionlinux.wordpress.com/](https://seduccionlinux.wordpress.com/)
 + [Saving Power on a Linux Laptop](https://www.youtube.com/watch?v=B1iRxoyT4EA)
-
 
 
 
@@ -259,6 +269,11 @@
 
 + [Small object photogrammetry – how to take photos](https://peterfalkingham.com/2019/01/16/small-object-photogrammetry-how-to-take-photos/)
 
++ [Grzegorz Baran Channel](https://www.youtube.com/c/GrzegorzBaranArt/videos)
+
++ [Photogrammetry Course: Photoreal 3d With Blender And Reality Capture
+](https://blendermarket.com/products/photogrammetry-course)
+
 ### Python
 
 + [Python Scripting for Spatial Data Processing](http://chris35wills.github.io/papers/python_scripting_for_spatial_data_processing.pdf)
@@ -277,6 +292,13 @@
 
 + [Curso Python desde 0 by pildorasinformaticas ](https://www.youtube.com/playlist?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS)
 
++ [Geo-Python](https://geo-python-site.readthedocs.io/)
+
++ [ntroduction to Spatial Data Programming with Python](https://geobgu.xyz/py/?s=09#welcome)
+
++ [Leaflet-Geoman](https://geoman.io/leaflet-geoman)
+
++ [Curso de procesamiento de imágenes Sentinel con SNAP](https://www.youtube.com/watch?v=VUcPRv7IHSE)
 
 ### R software
 
@@ -358,6 +380,8 @@
 
 + [Canopy analysis in R using Forest Tools](https://cran.r-project.org/web/packages/ForestTools/vignettes/treetopAnalysis.html)
 
++ [Raster con R](https://drive.google.com/file/d/1-fVrfnMYO6MG8ohgznYMwO9OsubW5CZt/view)
+
 ### Random Information & Tools
 
 + [Recursos ICGC en obert](https://openicgc.github.io/)
@@ -423,6 +447,9 @@
 + [PrograMapa](https://programapa.wordpress.com/)
 + [DATA SCIENCE TUTORIALS](https://www.learndatasci.com/tutorials/)
 
++ [Diferencias entre los sistemas de coordenadas geográficas y proyectadas](https://mappinggis.com/2022/02/diferencias-entre-los-sistemas-de-coordenadas-geograficas-y-proyectadas/)
+
++ [Digital Heritage & Humanities Collections](https://dhhc.lib.usf.edu/)
 
 ### Software
 
@@ -493,6 +520,8 @@
 
 + [Inkscape]()
 
++ [hue.tools](https://hue.tools/?format=hex&s=09)
+
 #### Webmapping
 
 + [CESIUM](https://cesiumjs.org/)
@@ -507,6 +536,7 @@
 + [Leaflet Maps with Google Sheets](https://github.com/HandsOnDataViz/leaflet-maps-with-google-sheets)
 + [crear mapas web sincronizados](https://mappinggis.com/2018/11/como-crear-mapas-web-sincronizados/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 
++ [StoryMap JS](https://storymap.knightlab.com/)
 
 
 #### Photogrammetry Software
